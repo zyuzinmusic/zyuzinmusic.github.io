@@ -1,0 +1,1187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>MusicXML Player</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/opensheetmusicdisplay@2.1.3/build/opensheetmusicdisplay.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/osmd-audio-player@0.7.0/umd/OsmdAudioPlayer.min.js"></script>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f4f6f8;
+            color: #222;
+        }
+
+        .page {
+            width: 95%;
+            max-width: 1200px;
+            margin: 20px auto;
+        }
+
+        .header {
+            background: #1976d2;
+            color: white;
+            padding: 18px 22px;
+            border-radius: 8px 8px 0 0;
+        }
+
+        .header h1 {
+            margin: 0 0 5px 0;
+            font-size: 26px;
+        }
+
+        .header p {
+            margin: 0;
+            font-size: 14px;
+        }
+
+        .controls {
+            background: white;
+            padding: 18px 22px;
+            border: 1px solid #ddd;
+            border-top: none;
+            border-radius: 0 0 8px 8px;
+            margin-bottom: 18px;
+        }
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 14px;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        input[type="file"],
+        select {
+            padding: 7px;
+            font-size: 14px;
+        }
+
+        select {
+            min-width: 300px;
+        }
+
+        button {
+            border: none;
+            border-radius: 5px;
+            padding: 9px 18px;
+            font-size: 14px;
+            cursor: pointer;
+            color: white;
+        }
+
+        #playButton {
+            background: #2e7d32;
+        }
+
+        #pauseButton {
+            background: #ef6c00;
+        }
+
+        #stopButton {
+            background: #c62828;
+        }
+
+        button:hover {
+            opacity: 0.9;
+        }
+
+        .status-box {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 25px;
+            margin-top: 10px;
+            padding: 10px 12px;
+            background: #f5f5f5;
+            border-radius: 5px;
+        }
+
+        .status {
+            font-weight: bold;
+        }
+
+        .time {
+            font-family: Consolas, monospace;
+            font-weight: bold;
+        }
+
+        #score {
+            background: white;
+            min-height: 300px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow-x: auto;
+        }
+
+        .info {
+            margin-top: 15px;
+            padding: 12px;
+            background: #fffde7;
+            border: 1px solid #e6df8b;
+            border-radius: 5px;
+            font-size: 13px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="page">
+
+    <div class="header">
+        <h1>MusicXML Player</h1>
+        <p>OpenSheetMusicDisplay + Web Audio</p>
+    </div>
+
+    <div class="controls">
+
+        <div class="row">
+            <label for="fileInput">MusicXML File:</label>
+            <input
+                type="file"
+                id="fileInput"
+                accept=".xml,.musicxml,.mxl"
+            >
+        </div>
+
+        <div class="row">
+            <label for="instrumentSelect">Instrument:</label>
+
+            <select id="instrumentSelect">
+                <option value="1" selected>1 - Acoustic Grand Piano</option>
+                <option value="2">2 - Bright Acoustic Piano</option>
+                <option value="3">3 - Electric Grand Piano</option>
+                <option value="4">4 - Honky-tonk Piano</option>
+                <option value="5">5 - Electric Piano 1</option>
+                <option value="6">6 - Electric Piano 2</option>
+                <option value="7">7 - Harpsichord</option>
+                <option value="8">8 - Clavinet</option>
+
+                <option value="9">9 - Celesta</option>
+                <option value="10">10 - Glockenspiel</option>
+                <option value="11">11 - Music Box</option>
+                <option value="12">12 - Vibraphone</option>
+                <option value="13">13 - Marimba</option>
+                <option value="14">14 - Xylophone</option>
+                <option value="15">15 - Tubular Bells</option>
+                <option value="16">16 - Dulcimer</option>
+
+                <option value="17">17 - Drawbar Organ</option>
+                <option value="18">18 - Percussive Organ</option>
+                <option value="19">19 - Rock Organ</option>
+                <option value="20">20 - Church Organ</option>
+                <option value="21">21 - Reed Organ</option>
+                <option value="22">22 - Accordion</option>
+                <option value="23">23 - Harmonica</option>
+                <option value="24">24 - Tango Accordion</option>
+
+                <option value="25">25 - Acoustic Guitar (nylon)</option>
+                <option value="26">26 - Acoustic Guitar (steel)</option>
+                <option value="27">27 - Electric Guitar (jazz)</option>
+                <option value="28">28 - Electric Guitar (clean)</option>
+                <option value="29">29 - Electric Guitar (muted)</option>
+                <option value="30">30 - Overdriven Guitar</option>
+                <option value="31">31 - Distortion Guitar</option>
+                <option value="32">32 - Guitar Harmonics</option>
+
+                <option value="33">33 - Acoustic Bass</option>
+                <option value="34">34 - Electric Bass (finger)</option>
+                <option value="35">35 - Electric Bass (pick)</option>
+                <option value="36">36 - Fretless Bass</option>
+                <option value="37">37 - Slap Bass 1</option>
+                <option value="38">38 - Slap Bass 2</option>
+                <option value="39">39 - Synth Bass 1</option>
+                <option value="40">40 - Synth Bass 2</option>
+
+                <option value="41">41 - Violin</option>
+                <option value="42">42 - Viola</option>
+                <option value="43">43 - Cello</option>
+                <option value="44">44 - Contrabass</option>
+                <option value="45">45 - Tremolo Strings</option>
+                <option value="46">46 - Pizzicato Strings</option>
+                <option value="47">47 - Orchestral Harp</option>
+                <option value="48">48 - Timpani</option>
+
+                <option value="49">49 - String Ensemble 1</option>
+                <option value="50">50 - String Ensemble 2</option>
+                <option value="51">51 - Synth Strings 1</option>
+                <option value="52">52 - Synth Strings 2</option>
+                <option value="53">53 - Choir Aahs</option>
+                <option value="54">54 - Voice Oohs</option>
+                <option value="55">55 - Synth Voice</option>
+                <option value="56">56 - Orchestra Hit</option>
+
+                <option value="57">57 - Trumpet</option>
+                <option value="58">58 - Trombone</option>
+                <option value="59">59 - Tuba</option>
+                <option value="60">60 - Muted Trumpet</option>
+                <option value="61">61 - French Horn</option>
+                <option value="62">62 - Brass Section</option>
+                <option value="63">63 - Synth Brass 1</option>
+                <option value="64">64 - Synth Brass 2</option>
+
+                <option value="65">65 - Soprano Sax</option>
+                <option value="66">66 - Alto Sax</option>
+                <option value="67">67 - Tenor Sax</option>
+                <option value="68">68 - Baritone Sax</option>
+                <option value="69">69 - Oboe</option>
+                <option value="70">70 - English Horn</option>
+                <option value="71">71 - Bassoon</option>
+                <option value="72">72 - Clarinet</option>
+
+                <option value="73">73 - Piccolo</option>
+                <option value="74">74 - Flute</option>
+                <option value="75">75 - Recorder</option>
+                <option value="76">76 - Pan Flute</option>
+                <option value="77">77 - Blown Bottle</option>
+                <option value="78">78 - Shakuhachi</option>
+                <option value="79">79 - Whistle</option>
+                <option value="80">80 - Ocarina</option>
+
+                <option value="81">81 - Lead 1 (square)</option>
+                <option value="82">82 - Lead 2 (sawtooth)</option>
+                <option value="83">83 - Lead 3 (calliope)</option>
+                <option value="84">84 - Lead 4 (chiff)</option>
+                <option value="85">85 - Lead 5 (charang)</option>
+                <option value="86">86 - Lead 6 (voice)</option>
+                <option value="87">87 - Lead 7 (fifths)</option>
+                <option value="88">88 - Lead 8 (bass + lead)</option>
+
+                <option value="89">89 - Pad 1 (new age)</option>
+                <option value="90">90 - Pad 2 (warm)</option>
+                <option value="91">91 - Pad 3 (polysynth)</option>
+                <option value="92">92 - Pad 4 (choir)</option>
+                <option value="93">93 - Pad 5 (bowed)</option>
+                <option value="94">94 - Pad 6 (metallic)</option>
+                <option value="95">95 - Pad 7 (halo)</option>
+                <option value="96">96 - Pad 8 (sweep)</option>
+
+                <option value="97">97 - FX 1 (rain)</option>
+                <option value="98">98 - FX 2 (soundtrack)</option>
+                <option value="99">99 - FX 3 (crystal)</option>
+                <option value="100">100 - FX 4 (atmosphere)</option>
+                <option value="101">101 - FX 5 (brightness)</option>
+                <option value="102">102 - FX 6 (goblins)</option>
+                <option value="103">103 - FX 7 (echoes)</option>
+                <option value="104">104 - FX 8 (sci-fi)</option>
+
+                <option value="105">105 - Sitar</option>
+                <option value="106">106 - Banjo</option>
+                <option value="107">107 - Shamisen</option>
+                <option value="108">108 - Koto</option>
+                <option value="109">109 - Kalimba</option>
+                <option value="110">110 - Bagpipe</option>
+                <option value="111">111 - Fiddle</option>
+                <option value="112">112 - Shanai</option>
+
+                <option value="113">113 - Tinkle Bell</option>
+                <option value="114">114 - Agogo</option>
+                <option value="115">115 - Steel Drums</option>
+                <option value="116">116 - Woodblock</option>
+                <option value="117">117 - Taiko Drum</option>
+                <option value="118">118 - Melodic Tom</option>
+                <option value="119">119 - Synth Drum</option>
+                <option value="120">120 - Reverse Cymbal</option>
+
+                <option value="121">121 - Guitar Fret Noise</option>
+                <option value="122">122 - Breath Noise</option>
+                <option value="123">123 - Seashore</option>
+                <option value="124">124 - Bird Tweet</option>
+                <option value="125">125 - Telephone Ring</option>
+                <option value="126">126 - Helicopter</option>
+                <option value="127">127 - Applause</option>
+                <option value="128">128 - Gunshot</option>
+            </select>
+        </div>
+
+        <div class="row">
+
+            <button id="playButton">
+                Play
+            </button>
+
+            <button id="pauseButton">
+                Pause
+            </button>
+
+            <button id="stopButton">
+                Stop
+            </button>
+
+        </div>
+
+        <div class="status-box">
+
+            <div class="status" id="status">
+                No MusicXML file loaded
+            </div>
+
+            <div class="time" id="time">
+                Time: 0.0 sec
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="score"></div>
+
+<!--
+    <div class="info">
+        MusicXML note timing is determined by
+        <strong>duration / divisions</strong>.
+        For example, with divisions = 2,
+        duration = 1 represents an eighth note and
+        duration = 2 represents a quarter note.
+    </div>
+-->
+
+</div>
+
+<script>
+
+    let osmd = null;
+    let audioPlayer = null;
+
+    let startTime = 0;
+    let timer = null;
+    let finishTimer = null;
+
+    let isPlaying = false;
+
+    let musicDuration = 0;
+
+    /*
+     * True only when the score has reached the end naturally
+     * or when Stop was pressed.
+     *
+     * It is deliberately NOT set by Pause.
+     *
+     * This allows:
+     *
+     * Pause -> Play
+     *
+     * to resume normally.
+     *
+     * After:
+     *
+     * Play -> Finish -> Play
+     *
+     * the OsmdAudioPlayer is recreated.
+     */
+    let playbackFinishedFlag = false;
+
+    let originalXmlText = null;
+
+    // ------------------------------------------------------------
+    // STATUS
+    // ------------------------------------------------------------
+
+    function setStatus(text) {
+        document.getElementById("status").textContent = text;
+    }
+
+    // ------------------------------------------------------------
+    // SELECTED INSTRUMENT
+    // ------------------------------------------------------------
+
+    function getSelectedInstrument() {
+        return parseInt(
+            document.getElementById("instrumentSelect").value,
+            10
+        );
+    }
+
+    function getSelectedInstrumentName() {
+        const select =
+            document.getElementById("instrumentSelect");
+        return select.options[select.selectedIndex].text;
+    }
+
+    // ------------------------------------------------------------
+    // CHANGE MUSICXML INSTRUMENT
+    // ------------------------------------------------------------
+
+    function setMusicXmlInstrument(xmlDocument) {
+
+        const program = getSelectedInstrument();
+
+        const instrumentName =
+            getSelectedInstrumentName();
+
+        const midiProgram =
+            xmlDocument.getElementsByTagName("midi-program");
+
+        for (let i = 0; i < midiProgram.length; i++) {
+
+            midiProgram[i].textContent = program;
+
+        }
+
+        const midiChannel = xmlDocument.getElementsByTagName("midi-channel");
+
+        for (let i = 0; i < midiChannel.length; i++) {
+            midiChannel[i].textContent = "1";
+        }
+
+        const instrumentNames =
+            xmlDocument.getElementsByTagName("instrument-name");
+
+        for (let i = 0; i < instrumentNames.length; i++) {
+            instrumentNames[i].textContent =
+                instrumentName.replace(/^\d+\s*-\s*/, "");
+        }
+
+        const partNames =
+            xmlDocument.getElementsByTagName("part-name");
+
+        for (let i = 0; i < partNames.length; i++) {
+            /*
+             * Do not overwrite an existing part name.
+             */
+            if (!partNames[i].textContent.trim()) {
+                partNames[i].textContent =
+                    instrumentName.replace(/^\d+\s*-\s*/, "");
+            }
+        }
+    }
+
+    // ------------------------------------------------------------
+    // XML SERIALIZATION
+    // ------------------------------------------------------------
+
+    function serializeXml(xmlDocument) {
+        const serializer = new XMLSerializer();
+        return serializer.serializeToString(xmlDocument);
+    }
+
+    // ------------------------------------------------------------
+    // TIMER
+    // ------------------------------------------------------------
+
+    function startTimer() {
+
+        stopTimer();
+        startTime = Date.now();
+        timer = setInterval(function() {
+            if (!isPlaying) {
+                return;
+            }
+            const elapsed =
+                (Date.now() - startTime) / 1000;
+            const displayed =
+                Math.min(elapsed, musicDuration);
+            document.getElementById("time").textContent =
+                "Time: " + displayed.toFixed(1) + " sec";
+        }, 50);
+
+        /*
+         * osmd-audio-player does not reliably provide a
+         * convenient playback-finished event.
+         *
+         * Therefore use the calculated MusicXML duration.
+         */
+        finishTimer = setTimeout(function() {
+            if (isPlaying) {
+                playbackFinished();
+            }
+        }, musicDuration * 1000 + 150);
+    }
+
+    function stopTimer() {
+        if (timer !== null) {
+            clearInterval(timer);
+            timer = null;
+        }
+        if (finishTimer !== null) {
+            clearTimeout(finishTimer);
+            finishTimer = null;
+        }
+    }
+
+    // ------------------------------------------------------------
+    // PLAYBACK FINISHED
+    // ------------------------------------------------------------
+
+    function playbackFinished() {
+        isPlaying = false;
+        stopTimer();
+        playbackFinishedFlag = true;
+        document.getElementById("time").textContent =
+            "Time: " + musicDuration.toFixed(1) + " sec";
+        setStatus(
+            "Finished - " +
+            getSelectedInstrumentName()
+        );
+    }
+
+    // ------------------------------------------------------------
+    // CALCULATE MUSICXML DURATION
+    // ------------------------------------------------------------
+
+    function calculateMusicDuration(xmlDocument) {
+        /*
+         * Default tempo.
+         */
+        let tempo = 120;
+
+        /*
+         * Look for:
+         *
+         * <sound tempo="120"/>
+         *
+         * or:
+         *
+         * <per-minute>120</per-minute>
+         */
+        const sounds =
+            xmlDocument.getElementsByTagName("sound");
+
+        for (let i = 0; i < sounds.length; i++) {
+            const value =
+                parseFloat(
+                    sounds[i].getAttribute("tempo")
+                );
+            if (!isNaN(value) && value > 0) {
+                tempo = value;
+                break;
+            }
+        }
+
+        const perMinute =
+            xmlDocument.getElementsByTagName("per-minute");
+
+        for (let i = 0; i < perMinute.length; i++) {
+            const value =
+                parseFloat(
+                    perMinute[i].textContent
+                );
+
+            if (!isNaN(value) && value > 0) {
+                tempo = value;
+                break;
+            }
+        }
+
+        const quarterNoteSeconds =
+            60 / tempo;
+
+        let maximumPartQuarterNotes = 0;
+
+        const parts =
+            xmlDocument.getElementsByTagName("part");
+
+        for (let p = 0; p < parts.length; p++) {
+
+            const measures =
+                parts[p].getElementsByTagName("measure");
+
+            let divisions = 1;
+            let currentTime = 0;
+            let maximumTime = 0;
+
+            for (let m = 0; m < measures.length; m++) {
+                const measure = measures[m];
+                /*
+                 * Divisions can change between measures.
+                 */
+                const attributes =
+                    measure.getElementsByTagName("attributes");
+
+                if (attributes.length > 0) {
+                    const divisionElements =
+                        attributes[0]
+                            .getElementsByTagName("divisions");
+                    if (divisionElements.length > 0) {
+                        const value =
+                            parseFloat(
+                                divisionElements[0].textContent
+                            );
+                        if (!isNaN(value) && value > 0) {
+
+                            divisions = value;
+                        }
+                    }
+                }
+
+                /*
+                 * Process direct children of the measure.
+                 * This handles:
+                 * note
+                 * backup
+                 * forward
+                 */
+                for (
+                    let child = measure.firstElementChild;
+                    child !== null;
+                    child = child.nextElementSibling
+                ) {
+
+                    const tag = child.localName;
+
+                    // --------------------------------------------
+                    // NOTE
+                    // --------------------------------------------
+
+                    if (tag === "note") {
+                        /*
+                         * Chord notes do not advance time.
+                         */
+                        const chord =
+                            child.getElementsByTagName("chord");
+
+                        const durationElement =
+                            child.getElementsByTagName("duration");
+
+                        if (
+                            chord.length === 0 &&
+                            durationElement.length > 0
+                        ) {
+
+                            const duration =
+                                parseFloat(
+                                    durationElement[0].textContent
+                                );
+
+                            if (!isNaN(duration)) {
+
+                                currentTime +=
+                                    duration / divisions;
+                            }
+                        }
+                    }
+
+                    // --------------------------------------------
+                    // BACKUP
+                    // --------------------------------------------
+
+                    else if (tag === "backup") {
+                        const durationElement =
+                            child.getElementsByTagName("duration");
+
+                        if (durationElement.length > 0) {
+                            const duration =
+                                parseFloat(
+                                    durationElement[0].textContent
+                                );
+
+                            if (!isNaN(duration)) {
+                                currentTime -=
+                                    duration / divisions;
+                            }
+                        }
+                    }
+
+                    // --------------------------------------------
+                    // FORWARD
+                    // --------------------------------------------
+
+                    else if (tag === "forward") {
+                        const durationElement =
+                            child.getElementsByTagName("duration");
+
+                        if (durationElement.length > 0) {
+                            const duration =
+                                parseFloat(
+                                    durationElement[0].textContent
+                                );
+
+                            if (!isNaN(duration)) {
+                                currentTime +=
+                                    duration / divisions;
+                            }
+                        }
+                    }
+
+                    if (currentTime > maximumTime) {
+                        maximumTime = currentTime;
+                    }
+                }
+            }
+
+            if (maximumTime > maximumPartQuarterNotes) {
+                maximumPartQuarterNotes =
+                    maximumTime;
+            }
+        }
+        return (maximumPartQuarterNotes * quarterNoteSeconds);
+    }
+
+    // ------------------------------------------------------------
+    // LOAD MUSICXML
+    // ------------------------------------------------------------
+
+    document
+        .getElementById("fileInput")
+        .addEventListener("change", async function(event) {
+
+            const file = event.target.files[0];
+
+            if (!file) {
+                return;
+            }
+
+            try {
+                isPlaying = false;
+                stopTimer();
+                playbackFinishedFlag = false;
+
+                document.getElementById("time").textContent = "Time: 0.0 sec";
+                setStatus("Loading " + file.name + "...");
+
+
+// Stop and discard the previous audio player
+if (audioPlayer) {
+    try {
+        await audioPlayer.stop();
+    } catch (e) {
+        console.warn("Previous audio stop warning:", e);
+    }
+    audioPlayer = null;
+}
+
+// Clear the previous score
+document.getElementById("score").innerHTML = "";
+
+// Discard the previous OSMD instance
+osmd = null;
+
+
+                /* Read file. */
+                originalXmlText = await file.text();
+
+                /* Parse XML. */
+                const parser = new DOMParser();
+
+                const xmlDocument =
+                    parser.parseFromString(
+                        originalXmlText,
+                        "application/xml"
+                    );
+
+                /*
+                 * Check XML parser error.
+                 */
+                const parserError =
+                    xmlDocument.getElementsByTagName(
+                        "parsererror"
+                    );
+
+                if (parserError.length > 0) {
+                    throw new Error(
+                        "The selected file is not valid MusicXML."
+                    );
+                }
+
+                /*
+                 * Calculate duration BEFORE rendering.
+                 */
+                musicDuration =
+                    calculateMusicDuration(
+                        xmlDocument
+                    );
+
+                /*
+                 * Apply selected instrument.
+                 */
+                setMusicXmlInstrument(
+                    xmlDocument
+                );
+
+                const modifiedXml =
+                    serializeXml(
+                        xmlDocument
+                    );
+
+                /*
+                 * Create OSMD.
+                 */
+                osmd =
+                    new opensheetmusicdisplay.OpenSheetMusicDisplay(
+                        document.getElementById("score"),
+                        {
+                            autoResize: true,
+                            backend: "svg",
+                            drawTitle: true
+                        }
+                    );
+
+                /*
+                 * Load and render score.
+                 */
+                await osmd.load(
+                    modifiedXml
+                );
+
+                await osmd.render();
+
+                /*
+                 * Create audio player.
+                 */
+                audioPlayer = new OsmdAudioPlayer();
+                await audioPlayer.loadScore(osmd);
+// zyuzin !!!: make call twice, for one call green indicator the first time does not work.
+                await audioPlayer.loadScore(osmd);
+
+                document.getElementById("time").textContent =
+                    "Time: 0.0 sec";
+
+                setStatus(
+                    "Ready - " +
+                    getSelectedInstrumentName() +
+                    " - " +
+                    musicDuration.toFixed(1) +
+                    " sec"
+                );
+            }
+
+            catch (error) {
+                console.error(error);
+
+                osmd = null;
+                audioPlayer = null;
+
+                isPlaying = false;
+
+                stopTimer();
+
+                setStatus(
+                    "Error: " +
+                    error.message
+                );
+
+                alert(
+                    "Could not load MusicXML:\n\n" +
+                    error.message
+                );
+            }
+        });
+
+    // ------------------------------------------------------------
+    // INSTRUMENT CHANGE
+    // ------------------------------------------------------------
+
+    document
+        .getElementById("instrumentSelect")
+        .addEventListener("change", async function() {
+
+            if (!originalXmlText) {
+
+                setStatus(
+                    "Select a MusicXML file first."
+                );
+                return;
+            }
+
+            try {
+                isPlaying = false;
+                stopTimer();
+                playbackFinishedFlag = false;
+                setStatus(
+                    "Changing instrument to " +
+                    getSelectedInstrumentName() +
+                    "..."
+                );
+
+                /*
+                 * Stop the current audio player.
+                 */
+                if (audioPlayer) {
+                    try {
+                        await audioPlayer.stop();
+                    }
+
+                    catch (e) {
+                        console.warn(
+                            "Audio stop warning:",
+                            e
+                        );
+                    }
+                }
+
+                /*
+                 * Parse original MusicXML again.
+                 */
+                const parser =
+                    new DOMParser();
+
+                const xmlDocument =
+                    parser.parseFromString(
+                        originalXmlText,
+                        "application/xml"
+                    );
+
+                /*
+                 * Apply new instrument.
+                 */
+                setMusicXmlInstrument(
+                    xmlDocument
+                );
+
+                /*
+                 * Recalculate duration.
+                 */
+                musicDuration =
+                    calculateMusicDuration(
+                        xmlDocument
+                    );
+
+                const modifiedXml =
+                    serializeXml(
+                        xmlDocument
+                    );
+
+                /*
+                 * Recreate OSMD.
+                 */
+                document.getElementById("score").innerHTML =
+                    "";
+
+                osmd =
+                    new opensheetmusicdisplay.OpenSheetMusicDisplay(
+                        document.getElementById("score"),
+                        {
+                            autoResize: true,
+                            backend: "svg",
+                            drawTitle: true
+                        }
+                    );
+
+                await osmd.load(
+                    modifiedXml
+                );
+
+                await osmd.render();
+
+                /*
+                 * IMPORTANT:
+                 * Recreate OsmdAudioPlayer.
+                 */
+                audioPlayer = new OsmdAudioPlayer();
+                await audioPlayer.loadScore(osmd);
+// zyuzin !!!: make call twice, for one call green indicator the first time does not work.
+                await audioPlayer.loadScore(osmd);
+
+                document.getElementById("time").textContent =
+                    "Time: 0.0 sec";
+
+                setStatus(
+                    "Ready - " +
+                    getSelectedInstrumentName() +
+                    " - " +
+                    musicDuration.toFixed(1) +
+                    " sec"
+                );
+            }
+
+            catch (error) {
+                console.error(error);
+                isPlaying = false;
+                stopTimer();
+                setStatus("Instrument change error: " + error.message);
+            }
+        });
+
+    // ------------------------------------------------------------
+    // PLAY
+    // ------------------------------------------------------------
+
+    document
+        .getElementById("playButton")
+        .addEventListener("click", async function() {
+
+            if (!audioPlayer) {
+                alert("Please select a MusicXML file first.");
+                return;
+            }
+
+            try {
+                /*
+                 * ------------------------------------------------
+                 * IMPORTANT FIX
+                 * ------------------------------------------------
+                 *
+                 * If the previous playback reached the END,
+                 * recreate the OsmdAudioPlayer.
+                 *
+                 * This fixes:
+                 *
+                 * Play
+                 *   -> Finish
+                 *   -> Play
+                 *   -> no sound
+                 *
+                 * Pause does NOT set playbackFinishedFlag,
+                 * therefore:
+                 *
+                 * Play
+                 *   -> Pause
+                 *   -> Play
+                 *
+                 * continues normally.
+                 */
+                if (playbackFinishedFlag) {
+
+                    setStatus(
+                        "Preparing playback..."
+                    );
+
+                    try 
+                    {
+                       await audioPlayer.stop();
+                    }
+
+                    catch (e) {
+                        console.warn(
+                            "Previous audio stop warning:",
+                            e
+                        );
+                    }
+
+                    /*
+                     * Recreate the audio player.
+                     * This is more reliable than attempting
+                     * to reuse the old finished player.
+                     */
+                    audioPlayer = new OsmdAudioPlayer();
+                    await audioPlayer.loadScore(osmd);
+// zyuzin !!!: make call twice, for one call green indicator the first time does not work.
+                    await audioPlayer.loadScore(osmd);
+
+                    playbackFinishedFlag = false;
+
+                    document.getElementById("time").textContent =
+                        "Time: 0.0 sec";
+                }
+
+                setStatus(
+                    "Playing - " +
+                    getSelectedInstrumentName() +
+                    "..."
+                );
+
+                isPlaying = true;
+
+                startTimer();
+
+                await audioPlayer.play();
+            }
+
+            catch (error) {
+                console.error(error);
+
+                isPlaying = false;
+
+                stopTimer();
+
+                setStatus(
+                    "Playback error: " +
+                    error.message
+                );
+            }
+        });
+
+    // ------------------------------------------------------------
+    // PAUSE
+    // ------------------------------------------------------------
+
+    document
+        .getElementById("pauseButton")
+        .addEventListener("click", async function() {
+            if (!audioPlayer) {
+                return;
+            }
+
+            try {
+                await audioPlayer.pause();
+                isPlaying = false;
+                stopTimer();
+
+                /*
+                 * IMPORTANT:
+                 *
+                 * Do NOT set playbackFinishedFlag here.
+                 *
+                 * This allows Pause -> Play to resume.
+                 */
+
+                const elapsed =
+                    (Date.now() - startTime) / 1000;
+
+                const displayed =
+                    Math.min(
+                        elapsed,
+                        musicDuration
+                    );
+
+                document.getElementById("time").textContent =
+                    "Time: " +
+                    displayed.toFixed(1) +
+                    " sec";
+
+                setStatus(
+                    "Paused - " +
+                    getSelectedInstrumentName()
+                );
+            }
+
+            catch (error) {
+                console.error(error);
+                setStatus("Pause error: " + error.message);
+            }
+        });
+
+    // ------------------------------------------------------------
+    // STOP
+    // ------------------------------------------------------------
+
+    document
+        .getElementById("stopButton")
+        .addEventListener("click", async function() {
+
+            if (!audioPlayer) {
+                return;
+            }
+
+            try 
+            {
+               await audioPlayer.stop();
+            }
+
+            catch (error) {
+                console.warn(
+                    "Stop warning:",
+                    error
+                );
+            }
+
+            isPlaying = false;
+
+            stopTimer();
+
+            /*
+             * Stop means that the next Play should start
+             * from the beginning.
+             */
+            playbackFinishedFlag = true;
+            document.getElementById("time").textContent =
+                "Time: 0.0 sec";
+            setStatus("Stopped - " + getSelectedInstrumentName());
+        });
+
+</script>
+
+</body>
+</html>
