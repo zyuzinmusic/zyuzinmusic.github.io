@@ -4,7 +4,7 @@
   <movement-title>Мелодия из к/ф "Игрушка"</movement-title>
   <identification>
     <creator type="composer">Music by Vladimir Cosma</creator>
-    <creator type="composer">File updated by Mikhail Zyuzin</creator>
+    <creator type="composer">Edited by Mikhail Zyuzin</creator>
     <encoding>
       <software>Audiveris 5.11.0</software>
       <supports type="yes" element="print" attribute="new-system" value="yes"></supports>
@@ -42,7 +42,7 @@
   </credit>
   <credit page="1">
     <credit-type>composer</credit-type>
-    <credit-words default-x="903" default-y="1467" font-family="serif" font-size="12">File updated by Mikhail Zyuzin</credit-words>
+    <credit-words default-x="903" default-y="1467" font-family="serif" font-size="12">Edited by Mikhail Zyuzin</credit-words>
   </credit>
   <part-list>
     <score-part id="P1">
