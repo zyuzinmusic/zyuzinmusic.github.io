@@ -1,0 +1,21 @@
+h3 {
+    color: #3232FF;
+    margin-bottom: 0;
+}
+
+h3 + p {
+    margin-top: 0;
+}
+
+details {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+details ul {
+    margin-top: 5px;
+}
+
+summary {
+    cursor: pointer;
+}
