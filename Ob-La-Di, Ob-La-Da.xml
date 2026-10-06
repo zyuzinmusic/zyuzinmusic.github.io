@@ -1477,10 +1477,6 @@
 <barline location="left">
     <ending number="2" type="start"/>
 </barline>
-<barline location="right">
-    <bar-style>light-heavy</bar-style>
-    <ending number="2" type="stop"/>
-</barline>
 
       <note>
         <pitch>
@@ -1511,6 +1507,9 @@
         <type>half</type>
         </note>
 
+<barline location="right">
+    <ending number="2" type="stop"/>
+</barline>
       </measure>
 
     <measure number="21">
@@ -8740,6 +8739,7 @@
         <tied type="stop"/>
     </notations>
         </note>
+
       <note>
         <pitch>
           <step>C</step>
@@ -9035,6 +9035,7 @@
         <tied type="stop"/>
     </notations>
         </note>
+
       <note>
         <pitch>
           <step>C</step>
