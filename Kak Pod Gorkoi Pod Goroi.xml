@@ -372,6 +372,10 @@
     </measure>
 
     <measure number="4">
+      <barline location="right">
+        <bar-style>light-heavy</bar-style>
+        <repeat direction="backward"></repeat>
+      </barline>
 
       <note>
         <pitch>
