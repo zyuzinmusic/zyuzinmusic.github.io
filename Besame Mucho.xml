@@ -760,6 +760,10 @@
     </measure>
 
     <measure number="5">
+      <barline location="left">
+        <bar-style>heavy-light</bar-style>
+        <repeat direction="forward"></repeat>
+      </barline>
 
       <note>
         <pitch>
@@ -12099,6 +12103,10 @@
     </measure>
 
     <measure number="43">
+<barline location="left">
+  <bar-style>regular</bar-style>
+  <ending number="1" type="start"/>
+</barline>
 
       <note>
         <pitch>
@@ -12458,9 +12466,19 @@
           </notations>
       </note>
 
+<barline location="right">
+  <bar-style>light-heavy</bar-style>
+  <ending number="1" type="stop"/>
+  <repeat direction="backward"/>
+</barline>
+
     </measure>
 
     <measure number="45">
+      <barline location="left">
+        <bar-style>regular</bar-style>
+        <ending number="2" type="start"></ending>
+      </barline>
 
       <note>
         <pitch>
@@ -12847,6 +12865,11 @@
         <stem>down</stem>
         <staff>2</staff>
       </note>
+
+<barline location="right">
+    <bar-style>light-heavy</bar-style>
+    <ending number="2" type="stop"/>
+</barline>
 
     </measure>
 
