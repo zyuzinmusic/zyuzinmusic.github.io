@@ -3,9 +3,10 @@
 <score-partwise version="4.0.3">
   <movement-title>Music from movie "The Toy"</movement-title>
   <identification>
-    <creator type="composer">Music by Vladimir Cosma</creator>
-    <creator type="composer">Edited by Mikhail Zyuzin</creator>
+    <creator type="composer">Music by Vladimir Cosma
+ Edited by Mikhail Zyuzin</creator>
     <encoding>
+      <software>Zyuzin Music Editor - Zyuzin Technologies</software>
       <supports type="yes" element="print" attribute="new-system" value="yes"></supports>
       <supports type="yes" element="print" attribute="new-page" value="yes"></supports>
       <supports type="yes" element="accidental"></supports>
@@ -87,12 +88,19 @@
         </clef>
         <staff-details print-object="yes"></staff-details>
       </attributes>
+
       <direction placement="above">
         <direction-type>
-          <words default-y="64" relative-x="-44" font-family="serif" font-size="12">ViVO</words>
+<!--          <words default-y="64" relative-x="-44" font-family="serif" font-size="12">ViVO</words> -->
+          <metronome>
+            <beat-unit>quarter</beat-unit>
+            <per-minute>120</per-minute>
+          </metronome>
         </direction-type>
+        <sound tempo="120"></sound>
         <staff>1</staff>
       </direction>
+
       <note default-x="77">
         <pitch>
           <step>E</step>
