@@ -4,7 +4,7 @@
   <identification>
     <creator type="composer">The Beatles &#10; Arrangement by Mikhail Zyuzin</creator>
     <encoding>
-      <software>Zyuzin Technologies</software>
+      <software>Zyuzin Music Editor - Zyuzin Technologies</software>
       <encoding-date>2026-10-23</encoding-date>
     </encoding>
   </identification>
@@ -45,6 +45,17 @@
         <key>
         </key>
       </attributes>
+
+      <direction placement="above">
+        <direction-type>
+          <metronome>
+            <beat-unit>quarter</beat-unit>
+            <per-minute>150</per-minute>
+          </metronome>
+        </direction-type>
+        <sound tempo="150"></sound>
+        <staff>1</staff>
+      </direction>
 
       <barline location="left">
         <bar-style>heavy-light</bar-style>
