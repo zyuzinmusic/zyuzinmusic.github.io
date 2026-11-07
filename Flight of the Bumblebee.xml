@@ -92,6 +92,10 @@
         </attributes>
       <direction placement="above">
         <direction-type>
+          <metronome>
+            <beat-unit>quarter</beat-unit>
+            <per-minute>144</per-minute>
+          </metronome>
           <words default-x="-55.00" default-y="40.00" relative-x="-30.20" relative-y="-1.81" font-weight="bold" font-family="Times New Roman" font-size="12">Vivace</words>
           </direction-type>
         <staff>1</staff>
