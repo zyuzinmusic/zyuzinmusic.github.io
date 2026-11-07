@@ -47,6 +47,17 @@
         </clef>
       </attributes>
 
+      <direction placement="above">
+        <direction-type>
+          <metronome>
+            <beat-unit>quarter</beat-unit>
+            <per-minute>120</per-minute>
+          </metronome>
+        </direction-type>
+        <sound tempo="120"></sound>
+        <staff>1</staff>
+      </direction>
+
       <note>
         <pitch>
           <step>C</step>
