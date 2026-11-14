@@ -55,6 +55,16 @@
           </clef>
         </attributes>
 
+      <direction placement="above">
+        <direction-type>
+          <metronome>
+            <beat-unit>quarter</beat-unit>
+            <per-minute>120</per-minute>
+          </metronome>
+        </direction-type>
+        <sound tempo="120"/>
+      </direction>
+
       <note>
         <rest/>
         <duration>64</duration>
@@ -6949,7 +6959,7 @@
           <alter>1</alter>
           <octave>5</octave>
           </pitch>
-        <duration>16</duration>
+        <duration>8</duration>
         <voice>1</voice>
         <type>quarter</type>
         <stem>down</stem>
