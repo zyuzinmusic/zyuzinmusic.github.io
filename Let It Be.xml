@@ -656,7 +656,7 @@
     <measure number="28">
       <note>
         <rest/>
-        <duration>20</duration>
+        <duration>16</duration>
         <voice>1</voice>
       </note>
     </measure>
@@ -670,7 +670,7 @@
     <measure number="30">
       <note>
         <rest/>
-        <duration>17</duration>
+        <duration>16</duration>
         <voice>1</voice>
       </note>
     </measure>
@@ -2142,7 +2142,7 @@
     <measure number="47">
       <note>
         <rest/>
-        <duration>102</duration>
+        <duration>96</duration>
         <voice>1</voice>
       </note>
     </measure>
@@ -2173,7 +2173,7 @@
       </attributes>
       <note>
         <rest/>
-        <duration>34</duration>
+        <duration>32</duration>
         <voice>1</voice>
       </note>
     </measure>
@@ -3148,8 +3148,7 @@
       </note>
     </measure>
     <measure number="10">
-      <attributes>
-      </attributes>
+
       <note>
         <pitch>
           <step>E</step>
@@ -3319,6 +3318,14 @@
         <stem>up</stem>
         <beam number="1">end</beam>
       </note>
+
+      <note>
+        <rest/>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>eighth</type>
+      </note>
+
     </measure>
     <measure number="11">
       <note>
@@ -6601,9 +6608,9 @@
       </note>
       <note>
         <rest/>
-        <duration>2</duration>
+        <duration>1</duration>
         <voice>1</voice>
-        <type>eighth</type>
+        <type>16th</type>
       </note>
     </measure>
     <measure number="31">
@@ -8894,9 +8901,9 @@
       </note>
       <note>
         <rest/>
-        <duration>12</duration>
+        <duration>6</duration>
         <voice>1</voice>
-        <type>eighth</type>
+        <type>16th</type>
       </note>
     </measure>
     <measure number="48">
@@ -9581,9 +9588,9 @@
       </note>
       <note>
         <rest/>
-        <duration>4</duration>
+        <duration>2</duration>
         <voice>1</voice>
-        <type>eighth</type>
+        <type>16th</type>
       </note>
     </measure>
     <measure number="52">
