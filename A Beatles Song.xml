@@ -2,7 +2,8 @@
 <score-partwise version="4.0.3">
   <movement-title>A Beatles Song</movement-title>
   <identification>
-    <creator type="composer">The Beatles &#10; Arrangement by Mikhail Zyuzin</creator>
+    <creator type="composer">The Beatles
+Arrangement by Mikhail Zyuzin</creator>
     <encoding>
       <software>Zyuzin Music Editor - Zyuzin Technologies</software>
       <encoding-date>2026-10-23</encoding-date>
@@ -59,7 +60,11 @@
 
       <barline location="left">
         <bar-style>heavy-light</bar-style>
-        <ending number="1" type="start"/>
+      </barline>
+
+      <barline location="left">
+        <bar-style>heavy-light</bar-style>
+<!--        <ending number="1" type="start"/> -->
         <repeat direction="forward"></repeat>
       </barline>
 
@@ -3078,7 +3083,7 @@
 
 <barline location="right">
     <bar-style>light-heavy</bar-style>
-    <ending number="1" type="stop"/>
+<!--    <ending number="1" type="stop"/> -->
     <repeat direction="backward"/>
 </barline>
 
