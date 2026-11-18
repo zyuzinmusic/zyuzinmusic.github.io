@@ -52,7 +52,6 @@
           <line>2</line>
         </clef>
       </attributes>
-
       <direction>
         <direction-type>
           <metronome>
@@ -62,7 +61,6 @@
         </direction-type>
         <sound tempo="120.0"/>
       </direction>
-
       <note>
         <pitch>
           <step>A</step>
@@ -71,11 +69,8 @@
         <duration>3</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem>up</stem>
         <dot/>
-        <lyric>
-          <text>Fae</text>
-        </lyric>
+        <stem>up</stem>
       </note>
       <note>
         <pitch>
@@ -86,9 +81,6 @@
         <voice>1</voice>
         <type>16th</type>
         <stem>up</stem>
-        <lyric>
-          <text>cpe</text>
-        </lyric>
       </note>
       <note>
         <pitch>
@@ -100,9 +92,6 @@
         <voice>1</voice>
         <type>eighth</type>
         <stem>down</stem>
-        <lyric>
-          <text>md</text>
-        </lyric>
       </note>
       <note>
         <pitch>
@@ -113,9 +102,6 @@
         <voice>1</voice>
         <type>eighth</type>
         <stem>down</stem>
-        <lyric>
-          <text>naM</text>
-        </lyric>
       </note>
       <note>
         <pitch>
@@ -127,9 +113,6 @@
         <voice>1</voice>
         <type>eighth</type>
         <stem>down</stem>
-        <lyric>
-          <text>na</text>
-        </lyric>
       </note>
       <note>
         <pitch>
@@ -140,9 +123,6 @@
         <voice>1</voice>
         <type>eighth</type>
         <stem>up</stem>
-        <lyric>
-          <text>cos</text>
-        </lyric>
       </note>
       <note>
         <rest/>
@@ -150,10 +130,10 @@
         <voice>1</voice>
         <type>quarter</type>
       </note>
-    <barline location="left">
-      <bar-style>heavy-light</bar-style>
-      <repeat direction="forward"></repeat>
-    </barline>
+      <barline location="left">
+        <bar-style>heavy-light</bar-style>
+        <repeat direction="forward"/>
+      </barline>
     </measure>
     <measure number="2">
       <note>
@@ -164,11 +144,8 @@
         <duration>3</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem>up</stem>
         <dot/>
-        <lyric>
-          <text>e</text>
-        </lyric>
+        <stem>up</stem>
       </note>
       <note>
         <pitch>
@@ -179,9 +156,6 @@
         <voice>1</voice>
         <type>16th</type>
         <stem>up</stem>
-        <lyric>
-          <text>ra</text>
-        </lyric>
       </note>
       <note>
         <pitch>
@@ -193,9 +167,6 @@
         <voice>1</voice>
         <type>eighth</type>
         <stem>down</stem>
-        <lyric>
-          <text>xoT</text>
-        </lyric>
       </note>
       <note>
         <pitch>
@@ -217,9 +188,6 @@
         <voice>1</voice>
         <type>eighth</type>
         <stem>down</stem>
-        <lyric>
-          <text>o</text>
-        </lyric>
       </note>
       <note>
         <pitch>
@@ -230,9 +198,6 @@
         <voice>1</voice>
         <type>eighth</type>
         <stem>up</stem>
-        <lyric>
-          <text>H51,</text>
-        </lyric>
       </note>
       <note>
         <rest/>
@@ -250,11 +215,8 @@
         <duration>3</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem>up</stem>
         <dot/>
-        <lyric>
-          <text>a</text>
-        </lyric>
+        <stem>up</stem>
       </note>
       <note>
         <pitch>
@@ -265,9 +227,6 @@
         <voice>1</voice>
         <type>16th</type>
         <stem>up</stem>
-        <lyric>
-          <text>Hail</text>
-        </lyric>
       </note>
       <note>
         <pitch>
@@ -279,9 +238,6 @@
         <voice>1</voice>
         <type>eighth</type>
         <stem>down</stem>
-        <lyric>
-          <text>a</text>
-        </lyric>
       </note>
       <note>
         <pitch>
@@ -292,9 +248,6 @@
         <voice>1</voice>
         <type>eighth</type>
         <stem>down</stem>
-        <lyric>
-          <text>o</text>
-        </lyric>
       </note>
       <note>
         <pitch>
@@ -305,9 +258,6 @@
         <voice>1</voice>
         <type>eighth</type>
         <stem>down</stem>
-        <lyric>
-          <text>a</text>
-        </lyric>
       </note>
       <note>
         <pitch>
@@ -318,9 +268,6 @@
         <voice>1</voice>
         <type>eighth</type>
         <stem>down</stem>
-        <lyric>
-          <text>a</text>
-        </lyric>
       </note>
       <note>
         <pitch>
@@ -332,9 +279,6 @@
         <voice>1</voice>
         <type>eighth</type>
         <stem>down</stem>
-        <lyric>
-          <text>MH</text>
-        </lyric>
       </note>
       <note>
         <pitch>
@@ -345,9 +289,6 @@
         <voice>1</voice>
         <type>eighth</type>
         <stem>up</stem>
-        <lyric>
-          <text>a</text>
-        </lyric>
       </note>
     </measure>
     <measure number="4">
@@ -362,11 +303,8 @@
         <duration>3</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem>down</stem>
         <dot/>
-        <lyric>
-          <text>Ka</text>
-        </lyric>
+        <stem>down</stem>
       </note>
       <note>
         <pitch>
@@ -378,9 +316,6 @@
         <voice>1</voice>
         <type>16th</type>
         <stem>down</stem>
-        <lyric>
-          <text>Th!</text>
-        </lyric>
       </note>
       <note>
         <pitch>
@@ -392,9 +327,6 @@
         <voice>1</voice>
         <type>eighth</type>
         <stem>down</stem>
-        <lyric>
-          <text>CJIOB</text>
-        </lyric>
       </note>
       <note>
         <pitch>
@@ -405,9 +337,6 @@
         <voice>1</voice>
         <type>eighth</type>
         <stem>up</stem>
-        <lyric>
-          <text>HO</text>
-        </lyric>
       </note>
       <note>
         <pitch>
@@ -419,9 +348,6 @@
         <voice>1</voice>
         <type>quarter</type>
         <stem>down</stem>
-        <lyric>
-          <text>KpOBb,</text>
-        </lyric>
       </note>
       <note>
         <rest/>
@@ -439,11 +365,8 @@
         <duration>3</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem>up</stem>
         <dot/>
-        <lyric>
-          <text>mm</text>
-        </lyric>
+        <stem>up</stem>
       </note>
       <note>
         <pitch>
@@ -454,9 +377,6 @@
         <voice>1</voice>
         <type>16th</type>
         <stem>up</stem>
-        <lyric>
-          <text>ﬂPI~paT</text>
-        </lyric>
       </note>
       <note>
         <pitch>
@@ -478,9 +398,6 @@
         <voice>1</voice>
         <type>eighth</type>
         <stem>down</stem>
-        <lyric>
-          <text>y</text>
-        </lyric>
       </note>
       <note>
         <pitch>
@@ -491,9 +408,6 @@
         <voice>1</voice>
         <type>eighth</type>
         <stem>up</stem>
-        <lyric>
-          <text>FpIO</text>
-        </lyric>
       </note>
       <note>
         <pitch>
@@ -504,9 +418,6 @@
         <voice>1</voice>
         <type>eighth</type>
         <stem>up</stem>
-        <lyric>
-          <text>Mblﬁ</text>
-        </lyric>
       </note>
       <note>
         <rest/>
@@ -524,11 +435,8 @@
         <duration>3</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem>up</stem>
         <dot/>
-        <lyric>
-          <text>neﬁ</text>
-        </lyric>
+        <stem>up</stem>
       </note>
       <note>
         <pitch>
@@ -542,9 +450,6 @@
         <notations>
           <slur type="start" number="1"/>
         </notations>
-        <lyric>
-          <text>pﬂXA</text>
-        </lyric>
       </note>
       <note>
         <pitch>
@@ -568,9 +473,6 @@
         <voice>1</voice>
         <type>eighth</type>
         <stem>up</stem>
-        <lyric>
-          <text>Ma</text>
-        </lyric>
       </note>
       <note>
         <pitch>
@@ -611,11 +513,8 @@
         <duration>3</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem>up</stem>
         <dot/>
-        <lyric>
-          <text>mun</text>
-        </lyric>
+        <stem>up</stem>
       </note>
       <note>
         <pitch>
@@ -626,9 +525,6 @@
         <voice>1</voice>
         <type>16th</type>
         <stem>up</stem>
-        <lyric>
-          <text>HH</text>
-        </lyric>
       </note>
       <note>
         <pitch>
@@ -639,9 +535,6 @@
         <voice>1</voice>
         <type>eighth</type>
         <stem>up</stem>
-        <lyric>
-          <text>paT,</text>
-        </lyric>
       </note>
       <note>
         <pitch>
@@ -652,9 +545,6 @@
         <voice>1</voice>
         <type>eighth</type>
         <stem>up</stem>
-        <lyric>
-          <text>He</text>
-        </lyric>
       </note>
       <note>
         <pitch>
@@ -665,9 +555,6 @@
         <voice>1</voice>
         <type>eighth</type>
         <stem>up</stem>
-        <lyric>
-          <text>Be</text>
-        </lyric>
       </note>
       <note>
         <pitch>
@@ -678,9 +565,6 @@
         <voice>1</voice>
         <type>eighth</type>
         <stem>up</stem>
-        <lyric>
-          <text>px</text>
-        </lyric>
       </note>
       <note>
         <pitch>
@@ -702,9 +586,6 @@
         <voice>1</voice>
         <type>eighth</type>
         <stem>up</stem>
-        <lyric>
-          <text>Bmo</text>
-        </lyric>
       </note>
     </measure>
     <measure number="8">
@@ -740,11 +621,8 @@
         <duration>3</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem>up</stem>
         <dot/>
-        <lyric>
-          <text>H0</text>
-        </lyric>
+        <stem>up</stem>
       </note>
       <note>
         <pitch>
@@ -755,9 +633,6 @@
         <voice>1</voice>
         <type>16th</type>
         <stem>up</stem>
-        <lyric>
-          <text>[cor</text>
-        </lyric>
       </note>
       <note>
         <pitch>
@@ -769,9 +644,6 @@
         <voice>1</voice>
         <type>eighth</type>
         <stem>down</stem>
-        <lyric>
-          <text>a</text>
-        </lyric>
       </note>
       <note>
         <pitch>
@@ -793,9 +665,6 @@
         <voice>1</voice>
         <type>eighth</type>
         <stem>down</stem>
-        <lyric>
-          <text>Ham</text>
-        </lyric>
       </note>
       <note>
         <pitch>
@@ -806,9 +675,6 @@
         <voice>1</voice>
         <type>eighth</type>
         <stem>up</stem>
-        <lyric>
-          <text>m</text>
-        </lyric>
       </note>
       <note>
         <rest/>
@@ -833,11 +699,8 @@
         <duration>6</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem>up</stem>
         <dot/>
-        <lyric>
-          <text>l&apos;IOC</text>
-        </lyric>
+        <stem>up</stem>
       </note>
       <note>
         <pitch>
@@ -848,9 +711,6 @@
         <voice>1</voice>
         <type>16th</type>
         <stem>up</stem>
-        <lyric>
-          <text>He</text>
-        </lyric>
       </note>
       <note>
         <pitch>
@@ -862,9 +722,6 @@
         <voice>1</voice>
         <type>eighth</type>
         <stem>down</stem>
-        <lyric>
-          <text>K3.</text>
-        </lyric>
       </note>
       <note>
         <pitch>
@@ -875,9 +732,6 @@
         <voice>1</voice>
         <type>eighth</type>
         <stem>down</stem>
-        <lyric>
-          <text>HO</text>
-        </lyric>
       </note>
       <note>
         <pitch>
@@ -889,9 +743,6 @@
         <voice>1</voice>
         <type>eighth</type>
         <stem>down</stem>
-        <lyric>
-          <text>Ha</text>
-        </lyric>
       </note>
       <note>
         <pitch>
@@ -902,9 +753,6 @@
         <voice>1</voice>
         <type>eighth</type>
         <stem>up</stem>
-        <lyric>
-          <text>llBI,</text>
-        </lyric>
       </note>
       <note>
         <rest/>
@@ -922,8 +770,8 @@
         <duration>6</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem>up</stem>
         <dot/>
+        <stem>up</stem>
       </note>
       <note>
         <pitch>
@@ -1007,8 +855,8 @@
         <duration>6</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem>down</stem>
         <dot/>
+        <stem>down</stem>
       </note>
       <note>
         <pitch>
@@ -1072,11 +920,8 @@
         <duration>6</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem>up</stem>
         <dot/>
-        <lyric>
-          <text>CTpoﬁ</text>
-        </lyric>
+        <stem>up</stem>
       </note>
       <note>
         <pitch>
@@ -1087,9 +932,6 @@
         <voice>1</voice>
         <type>16th</type>
         <stem>up</stem>
-        <lyric>
-          <text>Ha</text>
-        </lyric>
       </note>
       <note>
         <pitch>
@@ -1100,9 +942,6 @@
         <voice>1</voice>
         <type>eighth</type>
         <stem>up</stem>
-        <lyric>
-          <text>x</text>
-        </lyric>
       </note>
       <note>
         <pitch>
@@ -1114,9 +953,6 @@
         <voice>1</voice>
         <type>eighth</type>
         <stem>down</stem>
-        <lyric>
-          <text>®u</text>
-        </lyric>
       </note>
       <note>
         <pitch>
@@ -1127,9 +963,6 @@
         <voice>1</voice>
         <type>eighth</type>
         <stem>up</stem>
-        <lyric>
-          <text>ryp</text>
-        </lyric>
       </note>
       <note>
         <pitch>
@@ -1140,9 +973,6 @@
         <voice>1</voice>
         <type>eighth</type>
         <stem>up</stem>
-        <lyric>
-          <text>Ka</text>
-        </lyric>
       </note>
       <note>
         <rest/>
@@ -1160,8 +990,8 @@
         <duration>6</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem>up</stem>
         <dot/>
+        <stem>up</stem>
       </note>
       <note>
         <pitch>
@@ -1172,9 +1002,6 @@
         <voice>1</voice>
         <type>16th</type>
         <stem>up</stem>
-        <lyric>
-          <text>Ta</text>
-        </lyric>
       </note>
       <note>
         <pitch>
@@ -1185,9 +1012,6 @@
         <voice>1</voice>
         <type>eighth</type>
         <stem>up</stem>
-        <lyric>
-          <text>lllO</text>
-        </lyric>
       </note>
       <note>
         <pitch>
@@ -1198,9 +1022,6 @@
         <voice>1</voice>
         <type>eighth</type>
         <stem>up</stem>
-        <lyric>
-          <text>KO</text>
-        </lyric>
       </note>
       <note>
         <pitch>
@@ -1211,9 +1032,6 @@
         <voice>1</voice>
         <type>eighth</type>
         <stem>up</stem>
-        <lyric>
-          <text>Jla</text>
-        </lyric>
       </note>
       <note>
         <pitch>
@@ -1224,9 +1042,6 @@
         <voice>1</voice>
         <type>eighth</type>
         <stem>up</stem>
-        <lyric>
-          <text>Lla</text>
-        </lyric>
       </note>
       <note>
         <rest/>
@@ -1244,8 +1059,8 @@
         <duration>6</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem>up</stem>
         <dot/>
+        <stem>up</stem>
       </note>
       <note>
         <pitch>
@@ -1256,9 +1071,6 @@
         <voice>1</voice>
         <type>16th</type>
         <stem>up</stem>
-        <lyric>
-          <text>Ma</text>
-        </lyric>
       </note>
       <note>
         <pitch>
@@ -1269,9 +1081,6 @@
         <voice>1</voice>
         <type>eighth</type>
         <stem>up</stem>
-        <lyric>
-          <text>xa</text>
-        </lyric>
       </note>
       <note>
         <pitch>
@@ -1282,9 +1091,6 @@
         <voice>1</voice>
         <type>eighth</type>
         <stem>up</stem>
-        <lyric>
-          <text>na</text>
-        </lyric>
       </note>
       <note>
         <pitch>
@@ -1316,9 +1122,6 @@
         <voice>1</voice>
         <type>eighth</type>
         <stem>up</stem>
-        <lyric>
-          <text>ra</text>
-        </lyric>
       </note>
       <note>
         <pitch>
@@ -1329,9 +1132,6 @@
         <voice>1</voice>
         <type>eighth</type>
         <stem>up</stem>
-        <lyric>
-          <text>py</text>
-        </lyric>
       </note>
     </measure>
     <measure number="16">
@@ -1370,11 +1170,8 @@
         <duration>12</duration>
         <voice>1</voice>
         <type>quarter</type>
-        <stem>up</stem>
         <dot/>
-        <lyric>
-          <text>TaM,</text>
-        </lyric>
+        <stem>up</stem>
       </note>
       <note>
         <pitch>
@@ -1385,9 +1182,6 @@
         <voice>1</voice>
         <type>16th</type>
         <stem>up</stem>
-        <lyric>
-          <text>rzxe</text>
-        </lyric>
       </note>
       <note>
         <pitch>
@@ -1398,9 +1192,6 @@
         <voice>1</voice>
         <type>16th</type>
         <stem>up</stem>
-        <lyric>
-          <text>mo</text>
-        </lyric>
       </note>
       <note>
         <pitch>
@@ -1435,11 +1226,8 @@
         <duration>12</duration>
         <voice>1</voice>
         <type>quarter</type>
-        <stem>up</stem>
         <dot/>
-        <lyric>
-          <text>mm,</text>
-        </lyric>
+        <stem>up</stem>
       </note>
       <note>
         <pitch>
@@ -1450,9 +1238,6 @@
         <voice>1</voice>
         <type>16th</type>
         <stem>down</stem>
-        <lyric>
-          <text>me</text>
-        </lyric>
       </note>
       <note>
         <pitch>
@@ -1502,8 +1287,8 @@
         <tie type="start"/>
         <voice>1</voice>
         <type>quarter</type>
-        <stem>down</stem>
         <dot/>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note>
@@ -1572,9 +1357,6 @@
         <voice>1</voice>
         <type>eighth</type>
         <stem>up</stem>
-        <lyric>
-          <text>TaM</text>
-        </lyric>
       </note>
       <note>
         <pitch>
@@ -1585,9 +1367,6 @@
         <voice>1</voice>
         <type>eighth</type>
         <stem>up</stem>
-        <lyric>
-          <text>BCEF</text>
-        </lyric>
       </note>
     </measure>
     <measure number="23">
@@ -1607,9 +1386,6 @@
         <voice>1</voice>
         <type>quarter</type>
         <stem>up</stem>
-        <lyric>
-          <text>)1a</text>
-        </lyric>
       </note>
       <note>
         <pitch>
@@ -1620,9 +1396,6 @@
         <voice>1</voice>
         <type>eighth</type>
         <stem>up</stem>
-        <lyric>
-          <text>npo</text>
-        </lyric>
       </note>
       <note>
         <pitch>
@@ -1633,9 +1406,6 @@
         <voice>1</voice>
         <type>eighth</type>
         <stem>up</stem>
-        <lyric>
-          <text>Jm</text>
-        </lyric>
       </note>
       <note>
         <pitch>
@@ -1646,9 +1416,6 @@
         <voice>1</voice>
         <type>quarter</type>
         <stem>up</stem>
-        <lyric>
-          <text>Ba</text>
-        </lyric>
       </note>
       <note>
         <pitch>
@@ -1659,9 +1426,6 @@
         <voice>1</voice>
         <type>eighth</type>
         <stem>down</stem>
-        <lyric>
-          <text>eT</text>
-        </lyric>
       </note>
       <note>
         <pitch>
@@ -1673,9 +1437,6 @@
         <voice>1</voice>
         <type>eighth</type>
         <stem>down</stem>
-        <lyric>
-          <text>ca</text>
-        </lyric>
       </note>
     </measure>
     <measure number="24">
@@ -1688,9 +1449,6 @@
         <voice>1</voice>
         <type>quarter</type>
         <stem>up</stem>
-        <lyric>
-          <text>KpOBB!</text>
-        </lyric>
       </note>
       <note>
         <rest/>
@@ -1704,10 +1462,10 @@
         <voice>1</voice>
         <type>half</type>
       </note>
-    <barline location="right">
-      <bar-style>light-heavy</bar-style>
-      <repeat direction="backward"></repeat>
-    </barline>
+      <barline location="right">
+        <bar-style>light-heavy</bar-style>
+        <repeat direction="backward"/>
+      </barline>
     </measure>
     <measure number="25">
       <note>
@@ -1815,8 +1573,8 @@
         <duration>3</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem>up</stem>
         <dot/>
+        <stem>up</stem>
         <staff>1</staff>
         <beam number="1">begin</beam>
       </note>
@@ -1829,8 +1587,8 @@
         <duration>3</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem>up</stem>
         <dot/>
+        <stem>up</stem>
         <staff>1</staff>
         <beam number="1">begin</beam>
       </note>
@@ -1843,8 +1601,8 @@
         <duration>3</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem>up</stem>
         <dot/>
+        <stem>up</stem>
         <staff>1</staff>
         <beam number="1">begin</beam>
       </note>
@@ -2219,10 +1977,10 @@
         <stem>up</stem>
         <staff>2</staff>
       </note>
-    <barline location="left">
-      <bar-style>heavy-light</bar-style>
-      <repeat direction="forward"></repeat>
-    </barline>
+      <barline location="left">
+        <bar-style>heavy-light</bar-style>
+        <repeat direction="forward"/>
+      </barline>
     </measure>
     <measure number="2">
       <note>
@@ -2234,8 +1992,8 @@
         <duration>3</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem>up</stem>
         <dot/>
+        <stem>up</stem>
         <staff>1</staff>
         <beam number="1">begin</beam>
       </note>
@@ -2248,8 +2006,8 @@
         <duration>3</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem>up</stem>
         <dot/>
+        <stem>up</stem>
         <staff>1</staff>
         <beam number="1">begin</beam>
       </note>
@@ -2262,8 +2020,8 @@
         <duration>3</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem>up</stem>
         <dot/>
+        <stem>up</stem>
         <staff>1</staff>
         <beam number="1">begin</beam>
       </note>
@@ -2654,8 +2412,8 @@
         <duration>3</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem>up</stem>
         <dot/>
+        <stem>up</stem>
         <staff>1</staff>
         <beam number="1">begin</beam>
       </note>
@@ -2669,8 +2427,8 @@
         <duration>3</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem>up</stem>
         <dot/>
+        <stem>up</stem>
         <staff>1</staff>
         <beam number="1">begin</beam>
       </note>
@@ -2683,8 +2441,8 @@
         <duration>3</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem>up</stem>
         <dot/>
+        <stem>up</stem>
         <staff>1</staff>
         <beam number="1">begin</beam>
       </note>
@@ -3105,8 +2863,8 @@
         <duration>3</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem>up</stem>
         <dot/>
+        <stem>up</stem>
         <staff>1</staff>
         <beam number="1">begin</beam>
       </note>
@@ -3119,8 +2877,8 @@
         <duration>3</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem>up</stem>
         <dot/>
+        <stem>up</stem>
         <staff>1</staff>
         <beam number="1">begin</beam>
       </note>
@@ -3133,8 +2891,8 @@
         <duration>3</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem>up</stem>
         <dot/>
+        <stem>up</stem>
         <staff>1</staff>
         <beam number="1">begin</beam>
       </note>
@@ -3495,8 +3253,8 @@
         <duration>3</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem>up</stem>
         <dot/>
+        <stem>up</stem>
         <staff>1</staff>
         <beam number="1">begin</beam>
       </note>
@@ -3509,8 +3267,8 @@
         <duration>3</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem>up</stem>
         <dot/>
+        <stem>up</stem>
         <staff>1</staff>
         <beam number="1">begin</beam>
       </note>
@@ -3523,8 +3281,8 @@
         <duration>3</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem>up</stem>
         <dot/>
+        <stem>up</stem>
         <staff>1</staff>
         <beam number="1">begin</beam>
       </note>
@@ -3919,8 +3677,8 @@
         <duration>3</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem>up</stem>
         <dot/>
+        <stem>up</stem>
         <staff>1</staff>
         <beam number="1">begin</beam>
       </note>
@@ -3933,8 +3691,8 @@
         <duration>3</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem>up</stem>
         <dot/>
+        <stem>up</stem>
         <staff>1</staff>
         <beam number="1">begin</beam>
       </note>
@@ -3947,8 +3705,8 @@
         <duration>3</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem>up</stem>
         <dot/>
+        <stem>up</stem>
         <staff>1</staff>
         <beam number="1">begin</beam>
       </note>
@@ -4352,8 +4110,8 @@
         <duration>6</duration>
         <voice>1</voice>
         <type>quarter</type>
-        <stem>up</stem>
         <dot/>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note>
@@ -4365,8 +4123,8 @@
         <duration>6</duration>
         <voice>1</voice>
         <type>quarter</type>
-        <stem>up</stem>
         <dot/>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note>
@@ -4378,8 +4136,8 @@
         <duration>6</duration>
         <voice>1</voice>
         <type>quarter</type>
-        <stem>up</stem>
         <dot/>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note>
@@ -4426,8 +4184,8 @@
         <duration>6</duration>
         <voice>1</voice>
         <type>quarter</type>
-        <stem>up</stem>
         <dot/>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note>
@@ -4439,8 +4197,8 @@
         <duration>6</duration>
         <voice>1</voice>
         <type>quarter</type>
-        <stem>up</stem>
         <dot/>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note>
@@ -4452,8 +4210,8 @@
         <duration>6</duration>
         <voice>1</voice>
         <type>quarter</type>
-        <stem>up</stem>
         <dot/>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note>
@@ -4873,8 +4631,8 @@
         <duration>3</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem>up</stem>
         <dot/>
+        <stem>up</stem>
         <staff>1</staff>
         <beam number="1">begin</beam>
       </note>
@@ -4887,8 +4645,8 @@
         <duration>3</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem>up</stem>
         <dot/>
+        <stem>up</stem>
         <staff>1</staff>
         <beam number="1">begin</beam>
       </note>
@@ -4901,8 +4659,8 @@
         <duration>3</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem>up</stem>
         <dot/>
+        <stem>up</stem>
         <staff>1</staff>
         <beam number="1">begin</beam>
       </note>
@@ -5295,8 +5053,8 @@
         <duration>6</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem>up</stem>
         <dot/>
+        <stem>up</stem>
         <staff>1</staff>
         <beam number="1">begin</beam>
       </note>
@@ -5309,8 +5067,8 @@
         <duration>6</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem>up</stem>
         <dot/>
+        <stem>up</stem>
         <staff>1</staff>
         <beam number="1">begin</beam>
       </note>
@@ -5323,8 +5081,8 @@
         <duration>6</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem>up</stem>
         <dot/>
+        <stem>up</stem>
         <staff>1</staff>
         <beam number="1">begin</beam>
       </note>
@@ -5715,8 +5473,8 @@
         <duration>6</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem>up</stem>
         <dot/>
+        <stem>up</stem>
         <staff>1</staff>
         <beam number="1">begin</beam>
       </note>
@@ -5730,8 +5488,8 @@
         <duration>6</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem>up</stem>
         <dot/>
+        <stem>up</stem>
         <staff>1</staff>
         <beam number="1">begin</beam>
       </note>
@@ -5744,8 +5502,8 @@
         <duration>6</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem>up</stem>
         <dot/>
+        <stem>up</stem>
         <staff>1</staff>
         <beam number="1">begin</beam>
       </note>
@@ -6158,8 +5916,8 @@
         <duration>6</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem>up</stem>
         <dot/>
+        <stem>up</stem>
         <staff>1</staff>
         <beam number="1">begin</beam>
       </note>
@@ -6172,8 +5930,8 @@
         <duration>6</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem>up</stem>
         <dot/>
+        <stem>up</stem>
         <staff>1</staff>
         <beam number="1">begin</beam>
       </note>
@@ -6186,8 +5944,8 @@
         <duration>6</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem>up</stem>
         <dot/>
+        <stem>up</stem>
         <staff>1</staff>
         <beam number="1">begin</beam>
       </note>
@@ -6551,8 +6309,8 @@
         <duration>6</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem>up</stem>
         <dot/>
+        <stem>up</stem>
         <staff>1</staff>
         <beam number="1">begin</beam>
       </note>
@@ -6565,8 +6323,8 @@
         <duration>6</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem>up</stem>
         <dot/>
+        <stem>up</stem>
         <staff>1</staff>
         <beam number="1">begin</beam>
       </note>
@@ -6579,8 +6337,8 @@
         <duration>6</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem>up</stem>
         <dot/>
+        <stem>up</stem>
         <staff>1</staff>
         <beam number="1">begin</beam>
       </note>
@@ -6968,8 +6726,8 @@
         <duration>6</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem>up</stem>
         <dot/>
+        <stem>up</stem>
         <staff>1</staff>
         <beam number="1">begin</beam>
       </note>
@@ -6982,8 +6740,8 @@
         <duration>6</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem>up</stem>
         <dot/>
+        <stem>up</stem>
         <staff>1</staff>
         <beam number="1">begin</beam>
       </note>
@@ -6996,8 +6754,8 @@
         <duration>6</duration>
         <voice>1</voice>
         <type>eighth</type>
-        <stem>up</stem>
         <dot/>
+        <stem>up</stem>
         <staff>1</staff>
         <beam number="1">begin</beam>
       </note>
@@ -7397,8 +7155,8 @@
         <duration>12</duration>
         <voice>1</voice>
         <type>quarter</type>
-        <stem>down</stem>
         <dot/>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note>
@@ -7410,8 +7168,8 @@
         <duration>12</duration>
         <voice>1</voice>
         <type>quarter</type>
-        <stem>down</stem>
         <dot/>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note>
@@ -7423,8 +7181,8 @@
         <duration>12</duration>
         <voice>1</voice>
         <type>quarter</type>
-        <stem>down</stem>
         <dot/>
+        <stem>down</stem>
         <staff>1</staff>
       </note>
       <note>
@@ -7930,8 +7688,8 @@
         <duration>24</duration>
         <voice>1</voice>
         <type>half</type>
-        <stem>up</stem>
         <dot/>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note>
@@ -7943,8 +7701,8 @@
         <duration>24</duration>
         <voice>1</voice>
         <type>half</type>
-        <stem>up</stem>
         <dot/>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note>
@@ -7956,8 +7714,8 @@
         <duration>24</duration>
         <voice>1</voice>
         <type>half</type>
-        <stem>up</stem>
         <dot/>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note>
@@ -9142,8 +8900,8 @@
         <duration>12</duration>
         <voice>5</voice>
         <type>quarter</type>
-        <stem>up</stem>
         <dot/>
+        <stem>up</stem>
         <staff>2</staff>
       </note>
       <note>
@@ -9155,8 +8913,8 @@
         <duration>12</duration>
         <voice>5</voice>
         <type>quarter</type>
-        <stem>up</stem>
         <dot/>
+        <stem>up</stem>
         <staff>2</staff>
       </note>
       <note>
@@ -9650,10 +9408,10 @@
         <stem>up</stem>
         <staff>2</staff>
       </note>
-    <barline location="right">
-      <bar-style>light-heavy</bar-style>
-      <repeat direction="backward"></repeat>
-    </barline>
+      <barline location="right">
+        <bar-style>light-heavy</bar-style>
+        <repeat direction="backward"/>
+      </barline>
     </measure>
     <measure number="25">
       <note>
@@ -10957,8 +10715,8 @@
         <duration>12</duration>
         <voice>1</voice>
         <type>half</type>
-        <stem>up</stem>
         <dot/>
+        <stem>up</stem>
         <staff>1</staff>
       </note>
       <note>
@@ -11817,9 +11575,9 @@
         <stem>up</stem>
         <staff>2</staff>
       </note>
-    <barline location="right">
-      <bar-style>light-light</bar-style>
-    </barline>
+      <barline location="right">
+        <bar-style>light-light</bar-style>
+      </barline>
     </measure>
     <measure number="33">
       <note>
@@ -12192,9 +11950,9 @@
         <type>half</type>
         <staff>2</staff>
       </note>
-    <barline location="right">
-      <bar-style>light-heavy</bar-style>
-    </barline>
+      <barline location="right">
+        <bar-style>light-heavy</bar-style>
+      </barline>
     </measure>
   </part>
 </score-partwise>
