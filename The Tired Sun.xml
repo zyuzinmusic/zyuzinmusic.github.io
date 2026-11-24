@@ -53,7 +53,12 @@
           <dynamics default-y="-82" relative-x="-2">
             <f/>
           </dynamics>
+          <metronome>
+            <beat-unit>quarter</beat-unit>
+            <per-minute>130</per-minute>
+          </metronome>
         </direction-type>
+        <sound tempo="130"></sound>
         <staff>1</staff>
         <sound dynamics="100"></sound>
       </direction>
@@ -872,7 +877,7 @@
       </note>
       <note>
         <rest>
-          <display-step>D</display-step>
+<!--           <display-step>D</display-step> -->
           <display-octave>3</display-octave>
         </rest>
         <duration>12</duration>
@@ -882,7 +887,7 @@
       </note>
       <note>
         <rest>
-          <display-step>D</display-step>
+<!--           <display-step>D</display-step> -->
           <display-octave>3</display-octave>
         </rest>
         <duration>24</duration>
@@ -892,7 +897,7 @@
       </note>
       <note>
         <rest>
-          <display-step>D</display-step>
+<!--           <display-step>D</display-step> -->
           <display-octave>3</display-octave>
         </rest>
         <duration>48</duration>
@@ -2158,7 +2163,7 @@
 
       <note>
         <rest>
-          <display-step>D</display-step>
+<!--           <display-step>D</display-step> -->
           <display-octave>3</display-octave>
         </rest>
         <duration>24</duration>
@@ -2169,7 +2174,7 @@
 
       <note>
         <rest>
-          <display-step>E</display-step>
+<!--           <display-step>E</display-step> -->
           <display-octave>3</display-octave>
         </rest>
         <duration>48</duration>
@@ -3969,7 +3974,7 @@
       </note>
       <note>
         <rest>
-          <display-step>E</display-step>
+<!--           <display-step>E</display-step> -->
           <display-octave>3</display-octave>
         </rest>
         <duration>12</duration>
@@ -3979,7 +3984,7 @@
       </note>
       <note>
         <rest>
-          <display-step>D</display-step>
+<!--           <display-step>D</display-step> -->
           <display-octave>3</display-octave>
         </rest>
         <duration>24</duration>
@@ -4137,7 +4142,7 @@
       </note>
       <note>
         <rest>
-          <display-step>D</display-step>
+<!--           <display-step>D</display-step> -->
           <display-octave>3</display-octave>
         </rest>
         <duration>24</duration>
@@ -4147,7 +4152,7 @@
       </note>
       <note>
         <rest>
-          <display-step>E</display-step>
+<!--           <display-step>E</display-step> -->
           <display-octave>3</display-octave>
         </rest>
         <duration>48</duration>
@@ -4562,7 +4567,7 @@
       </note>
       <note>
         <rest>
-          <display-step>E</display-step>
+<!--           <display-step>E</display-step> -->
           <display-octave>3</display-octave>
         </rest>
         <duration>12</duration>
@@ -4572,7 +4577,7 @@
       </note>
       <note>
         <rest>
-          <display-step>D</display-step>
+<!--           <display-step>D</display-step> -->
           <display-octave>3</display-octave>
         </rest>
         <duration>24</duration>
@@ -4582,7 +4587,7 @@
       </note>
       <note>
         <rest>
-          <display-step>D</display-step>
+<!--           <display-step>D</display-step> -->
           <display-octave>3</display-octave>
         </rest>
         <duration>24</duration>
@@ -4728,7 +4733,7 @@
       </note>
       <note>
         <rest>
-          <display-step>B</display-step>
+<!--           <display-step>B</display-step> -->
           <display-octave>4</display-octave>
         </rest>
         <duration>24</duration>
@@ -4798,7 +4803,7 @@
       </note>
       <note>
         <rest>
-          <display-step>D</display-step>
+<!--           <display-step>D</display-step> -->
           <display-octave>3</display-octave>
         </rest>
         <duration>24</duration>
@@ -5533,7 +5538,7 @@
 
       <note>
         <rest>
-          <display-step>C</display-step>
+<!--           <display-step>C</display-step> -->
           <display-octave>5</display-octave>
         </rest>
         <duration>48</duration>
@@ -5844,7 +5849,7 @@
 
       <note>
         <rest>
-          <display-step>B</display-step>
+<!--           <display-step>B</display-step> -->
           <display-octave>4</display-octave>
         </rest>
         <duration>24</duration>
@@ -6594,7 +6599,7 @@
 
       <note>
         <rest>
-          <display-step>D</display-step>
+<!--           <display-step>D</display-step> -->
           <display-octave>3</display-octave>
         </rest>
         <duration>24</duration>
@@ -6605,7 +6610,7 @@
 
       <note>
         <rest>
-          <display-step>D</display-step>
+<!--           <display-step>D</display-step> -->
           <display-octave>3</display-octave>
         </rest>
         <duration>12</duration>
@@ -6757,7 +6762,7 @@
       </note>
       <note>
         <rest>
-          <display-step>D</display-step>
+<!--           <display-step>D</display-step> -->
           <display-octave>3</display-octave>
         </rest>
         <duration>24</duration>
@@ -6767,7 +6772,7 @@
       </note>
       <note>
         <rest>
-          <display-step>D</display-step>
+<!--           <display-step>D</display-step> -->
           <display-octave>3</display-octave>
         </rest>
         <duration>48</duration>
@@ -8429,7 +8434,7 @@
       </note>
       <note>
         <rest>
-          <display-step>E</display-step>
+<!--           <display-step>E</display-step> -->
           <display-octave>3</display-octave>
         </rest>
         <duration>12</duration>
@@ -8439,7 +8444,7 @@
       </note>
       <note>
         <rest>
-          <display-step>D</display-step>
+<!--           <display-step>D</display-step> -->
           <display-octave>3</display-octave>
         </rest>
         <duration>24</duration>
@@ -8449,7 +8454,7 @@
       </note>
       <note>
         <rest>
-          <display-step>D</display-step>
+<!--           <display-step>D</display-step> -->
           <display-octave>3</display-octave>
         </rest>
         <duration>24</duration>
@@ -8604,7 +8609,7 @@
       </note>
       <note>
         <rest>
-          <display-step>B</display-step>
+<!--           <display-step>B</display-step> -->
           <display-octave>4</display-octave>
         </rest>
         <duration>24</duration>
@@ -8674,7 +8679,7 @@
       </note>
       <note>
         <rest>
-          <display-step>D</display-step>
+<!--           <display-step>D</display-step> -->
           <display-octave>3</display-octave>
         </rest>
         <duration>24</duration>
