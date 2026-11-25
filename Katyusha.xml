@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<score-partwise version="4.0.3">
+<score-partwise version="4.0">
   <movement-title>Katyusha</movement-title>
   <identification>
     <creator type="composer">Matvei Isaakovich Blamer
@@ -23,20 +23,18 @@ Edited by Mikhail Zyuzin</creator>
       </midi-instrument>
     </score-part>
   </part-list>
-  <!--= = = = = = = = = = = = = = = = = = = = = = = = = = = = =-->
   <part id="P1">
-    <!--=======================================================-->
     <measure number="1">
       <attributes>
         <divisions>2</divisions>
-        <key>
-          <fifths>-1</fifths>
-        </key>
         <time>
           <beats>2</beats>
           <beat-type>4</beat-type>
         </time>
         <staves>2</staves>
+        <key>
+          <fifths>-1</fifths>
+        </key>
         <clef number="1">
           <sign>G</sign>
           <line>2</line>
@@ -46,15 +44,14 @@ Edited by Mikhail Zyuzin</creator>
           <line>4</line>
         </clef>
       </attributes>
-      <direction placement="above">
+      <direction>
         <direction-type>
           <metronome>
             <beat-unit>quarter</beat-unit>
-            <per-minute>120</per-minute>
+            <per-minute>120.0</per-minute>
           </metronome>
         </direction-type>
-        <staff>1</staff>
-        <sound tempo="120"></sound>
+        <sound tempo="120.0"/>
       </direction>
       <note>
         <pitch>
@@ -68,7 +65,7 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <slur type="start" number="1" placement="above" default-x="8" default-y="6" bezier-x="35" bezier-y="18"></slur>
+          <slur type="start" number="1"/>
         </notations>
       </note>
       <note>
@@ -96,11 +93,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-5"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <pitch>
@@ -113,11 +105,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="47"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -156,11 +143,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-5"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <pitch>
@@ -173,11 +155,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="47"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -206,7 +183,6 @@ Edited by Mikhail Zyuzin</creator>
         <beam number="1">end</beam>
       </note>
     </measure>
-
     <measure number="2">
       <note>
         <pitch>
@@ -220,7 +196,7 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <slur type="stop" number="1" default-x="6" default-y="10" bezier-x="-36" bezier-y="16"></slur>
+          <slur type="stop" number="1"/>
         </notations>
       </note>
       <note>
@@ -234,7 +210,7 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <slur type="start" number="1" placement="above" default-x="9" default-y="6" bezier-x="44" bezier-y="36"></slur>
+          <slur type="start" number="1"/>
         </notations>
       </note>
       <backup>
@@ -251,11 +227,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-5"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <pitch>
@@ -268,11 +239,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="47"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -311,11 +277,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-5"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <pitch>
@@ -356,7 +317,6 @@ Edited by Mikhail Zyuzin</creator>
         <beam number="1">end</beam>
       </note>
     </measure>
-
     <measure number="3">
       <note>
         <pitch>
@@ -420,11 +380,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-5"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <pitch>
@@ -437,11 +392,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="47"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -492,11 +442,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="47"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -525,7 +470,6 @@ Edited by Mikhail Zyuzin</creator>
         <beam number="1">end</beam>
       </note>
     </measure>
-
     <measure number="4">
       <note>
         <pitch>
@@ -549,14 +493,12 @@ Edited by Mikhail Zyuzin</creator>
         <stem>up</stem>
         <staff>1</staff>
         <notations>
-          <slur type="stop" number="1"></slur>
+          <slur type="stop" number="1"/>
         </notations>
       </note>
-
       <backup>
         <duration>4</duration>
       </backup>
-
       <note>
         <pitch>
           <step>A</step>
@@ -568,13 +510,7 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-25"></staccato>
-          </articulations>
-        </notations>
       </note>
-
       <note>
         <pitch>
           <step>A</step>
@@ -586,11 +522,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="42"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -644,13 +575,7 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-25"></staccato>
-          </articulations>
-        </notations>
       </note>
-
       <note>
         <pitch>
           <step>A</step>
@@ -704,7 +629,6 @@ Edited by Mikhail Zyuzin</creator>
         <beam number="1">end</beam>
       </note>
     </measure>
-
     <measure number="5">
       <note>
         <pitch>
@@ -718,7 +642,7 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <slur type="start" number="1" placement="above" default-x="9" default-y="6" bezier-x="33" bezier-y="19"></slur>
+          <slur type="start" number="1"/>
         </notations>
       </note>
       <note>
@@ -746,11 +670,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-25"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <pitch>
@@ -763,11 +682,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="42"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -821,11 +735,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-25"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <pitch>
@@ -838,11 +747,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="43"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -885,9 +789,7 @@ Edited by Mikhail Zyuzin</creator>
         <beam number="1">end</beam>
       </note>
     </measure>
-
     <measure number="6">
-
       <note>
         <pitch>
           <step>G</step>
@@ -900,7 +802,7 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <slur type="stop" number="1" default-x="-3" default-y="16" bezier-x="-35" bezier-y="13"></slur>
+          <slur type="stop" number="1"/>
         </notations>
       </note>
       <note>
@@ -914,8 +816,8 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <slur type="start" number="1" placement="above" default-x="8" default-y="6" bezier-x="32" bezier-y="29"></slur>
-          <slur type="continue" number="1" default-x="149" default-y="5" bezier-x="-32" bezier-y="30"></slur>
+          <slur type="start" number="1"/>
+          <slur type="continue" number="1"/>
         </notations>
       </note>
       <backup>
@@ -932,11 +834,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-25"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <pitch>
@@ -949,11 +846,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="42"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -1019,11 +911,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="42"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -1066,7 +953,6 @@ Edited by Mikhail Zyuzin</creator>
         <beam number="1">end</beam>
       </note>
     </measure>
-
     <measure number="7">
       <note>
         <pitch>
@@ -1130,11 +1016,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-25"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <pitch>
@@ -1147,11 +1028,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="42"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -1205,11 +1081,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-25"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <pitch>
@@ -1222,11 +1093,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="43"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -1269,7 +1135,6 @@ Edited by Mikhail Zyuzin</creator>
         <beam number="1">end</beam>
       </note>
     </measure>
-
     <measure number="8">
       <note>
         <pitch>
@@ -1282,8 +1147,8 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <slur type="continue" number="1" placement="above" default-x="-15" default-y="4" bezier-x2="5" bezier-y2="10"></slur>
-          <slur type="stop" number="1" default-x="7" default-y="1" bezier-x="-3" bezier-y="11"></slur>
+          <slur type="continue" number="1"/>
+          <slur type="stop" number="1"/>
         </notations>
       </note>
       <backup>
@@ -1300,11 +1165,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-5"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <pitch>
@@ -1317,11 +1177,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="46"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -1360,11 +1215,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-5"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <pitch>
@@ -1377,11 +1227,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="47"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -1410,14 +1255,7 @@ Edited by Mikhail Zyuzin</creator>
         <beam number="1">end</beam>
       </note>
     </measure>
-
     <measure number="9">
-
-      <barline location="left">
-        <bar-style>heavy-light</bar-style>
-        <repeat direction="forward"></repeat>
-      </barline>
-
       <note>
         <pitch>
           <step>A</step>
@@ -1429,7 +1267,7 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <slur type="start" number="1" placement="above" default-x="8" default-y="20" bezier-x="62" bezier-y="45"></slur>
+          <slur type="start" number="1"/>
         </notations>
       </note>
       <note>
@@ -1457,11 +1295,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-5"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <pitch>
@@ -1474,11 +1307,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="47"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -1518,11 +1346,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-15"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <pitch>
@@ -1536,11 +1359,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="36"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -1568,8 +1386,11 @@ Edited by Mikhail Zyuzin</creator>
         <staff>2</staff>
         <beam number="1">end</beam>
       </note>
+      <barline location="left">
+        <bar-style>heavy-light</bar-style>
+        <repeat direction="forward"/>
+      </barline>
     </measure>
-
     <measure number="10">
       <note>
         <pitch>
@@ -1620,11 +1441,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-35"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <pitch>
@@ -1637,11 +1453,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="21"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -1680,11 +1491,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-5"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <pitch>
@@ -1697,11 +1503,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="57"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -1745,7 +1546,6 @@ Edited by Mikhail Zyuzin</creator>
         <beam number="1">end</beam>
       </note>
     </measure>
-
     <measure number="11">
       <note>
         <pitch>
@@ -1809,11 +1609,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="26"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -1865,11 +1660,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="26"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -1899,7 +1689,6 @@ Edited by Mikhail Zyuzin</creator>
         <beam number="1">end</beam>
       </note>
     </measure>
-
     <measure number="12">
       <note>
         <pitch>
@@ -1923,7 +1712,7 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <slur type="stop" number="1" default-x="1" default-y="5" bezier-x="-63" bezier-y="45"></slur>
+          <slur type="stop" number="1"/>
         </notations>
       </note>
       <backup>
@@ -1940,11 +1729,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-5"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <pitch>
@@ -1957,11 +1741,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="47"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -2000,11 +1779,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-5"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <pitch>
@@ -2017,11 +1791,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="47"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -2050,13 +1819,9 @@ Edited by Mikhail Zyuzin</creator>
         <beam number="1">end</beam>
       </note>
     </measure>
-
     <measure number="13">
       <note>
-        <rest>
-<!--           <display-step>B</display-step> -->
-          <display-octave>4</display-octave>
-        </rest>
+        <rest/>
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
@@ -2074,7 +1839,7 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <slur type="start" number="1" placement="above" default-x="9" default-y="25" bezier-x="29" bezier-y="15"></slur>
+          <slur type="start" number="1"/>
         </notations>
       </note>
       <note>
@@ -2102,11 +1867,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-25"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <pitch>
@@ -2119,11 +1879,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="26"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -2163,11 +1918,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-25"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <pitch>
@@ -2180,11 +1930,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="26"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -2214,7 +1959,6 @@ Edited by Mikhail Zyuzin</creator>
         <beam number="1">end</beam>
       </note>
     </measure>
-
     <measure number="14">
       <note>
         <pitch>
@@ -2228,7 +1972,7 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <slur type="stop" number="1" default-x="9" default-y="23" bezier-x="-28" bezier-y="17"></slur>
+          <slur type="stop" number="1"/>
         </notations>
       </note>
       <note>
@@ -2256,11 +2000,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-5"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <pitch>
@@ -2273,11 +2012,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="47"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -2316,11 +2050,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-5"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <pitch>
@@ -2333,11 +2062,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="47"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -2366,7 +2090,6 @@ Edited by Mikhail Zyuzin</creator>
         <beam number="1">end</beam>
       </note>
     </measure>
-
     <measure number="15">
       <note>
         <pitch>
@@ -2430,11 +2153,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-25"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <pitch>
@@ -2447,11 +2165,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="42"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -2505,11 +2218,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-25"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <pitch>
@@ -2522,11 +2230,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="42"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -2569,9 +2272,7 @@ Edited by Mikhail Zyuzin</creator>
         <beam number="1">end</beam>
       </note>
     </measure>
-
     <measure number="16">
-
       <note>
         <pitch>
           <step>D</step>
@@ -2583,11 +2284,9 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>1</staff>
       </note>
-
       <backup>
         <duration>4</duration>
       </backup>
-
       <note>
         <pitch>
           <step>D</step>
@@ -2599,72 +2298,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-5"></staccato>
-          </articulations>
-        </notations>
-      </note>
-
-      <note>
-        <pitch>
-          <step>D</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>1</duration>
-        <voice>5</voice>
-        <type>eighth</type>
-        <stem>down</stem>
-        <staff>2</staff>
-        <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="47"></staccato>
-          </articulations>
-        </notations>
-      </note>
-      <note>
-        <chord/>
-        <pitch>
-          <step>F</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>1</duration>
-        <voice>5</voice>
-        <type>eighth</type>
-        <stem>down</stem>
-        <staff>2</staff>
-        <beam number="1">end</beam>
-      </note>
-      <note>
-        <chord/>
-        <pitch>
-          <step>A</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>1</duration>
-        <voice>5</voice>
-        <type>eighth</type>
-        <stem>down</stem>
-        <staff>2</staff>
-        <beam number="1">end</beam>
-      </note>
-      <note>
-        <pitch>
-          <step>D</step>
-          <octave>3</octave>
-        </pitch>
-        <duration>1</duration>
-        <voice>5</voice>
-        <type>eighth</type>
-        <stem>down</stem>
-        <staff>2</staff>
-        <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-5"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <pitch>
@@ -2704,22 +2337,67 @@ Edited by Mikhail Zyuzin</creator>
         <staff>2</staff>
         <beam number="1">end</beam>
       </note>
-
+      <note>
+        <pitch>
+          <step>D</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>1</duration>
+        <voice>5</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">begin</beam>
+      </note>
+      <note>
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <voice>5</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">end</beam>
+      </note>
+      <note>
+        <chord/>
+        <pitch>
+          <step>F</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <voice>5</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">end</beam>
+      </note>
+      <note>
+        <chord/>
+        <pitch>
+          <step>A</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <voice>5</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">end</beam>
+      </note>
       <barline location="right">
         <bar-style>light-heavy</bar-style>
-        <repeat direction="backward"></repeat>
+        <repeat direction="backward"/>
       </barline>
-
     </measure>
-
     <measure number="17">
-
       <attributes>
         <key>
           <fifths>0</fifths>
         </key>
       </attributes>
-
       <note>
         <pitch>
           <step>A</step>
@@ -2732,7 +2410,7 @@ Edited by Mikhail Zyuzin</creator>
         <stem>up</stem>
         <staff>1</staff>
         <notations>
-          <slur type="start" number="1" placement="above" default-x="17" default-y="8" bezier-x="35" bezier-y="13"></slur>
+          <slur type="start" number="1"/>
         </notations>
       </note>
       <note>
@@ -2746,11 +2424,9 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>1</staff>
       </note>
-
       <backup>
         <duration>4</duration>
       </backup>
-
       <note>
         <pitch>
           <step>A</step>
@@ -2762,11 +2438,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-25"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <pitch>
@@ -2817,11 +2488,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-25"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <pitch>
@@ -2861,9 +2527,7 @@ Edited by Mikhail Zyuzin</creator>
         <staff>2</staff>
         <beam number="1">end</beam>
       </note>
-
     </measure>
-
     <measure number="18">
       <note>
         <pitch>
@@ -2877,7 +2541,7 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <slur type="stop" number="1" default-x="9" default-y="-5" bezier-x="-31" bezier-y="21"></slur>
+          <slur type="stop" number="1"/>
         </notations>
       </note>
       <note>
@@ -2891,14 +2555,12 @@ Edited by Mikhail Zyuzin</creator>
         <stem>up</stem>
         <staff>1</staff>
         <notations>
-          <slur type="start" number="1" placement="above" default-x="16" default-y="14" bezier-x="43" bezier-y="15"></slur>
+          <slur type="start" number="1"/>
         </notations>
       </note>
-
       <backup>
         <duration>4</duration>
       </backup>
-
       <note>
         <pitch>
           <step>A</step>
@@ -2910,11 +2572,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-25"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <pitch>
@@ -2965,11 +2622,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-25"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <pitch>
@@ -3009,9 +2661,7 @@ Edited by Mikhail Zyuzin</creator>
         <staff>2</staff>
         <beam number="1">end</beam>
       </note>
-
     </measure>
-
     <measure number="19">
       <note>
         <pitch>
@@ -3061,11 +2711,9 @@ Edited by Mikhail Zyuzin</creator>
         <staff>1</staff>
         <beam number="1">end</beam>
       </note>
-
       <backup>
         <duration>4</duration>
       </backup>
-
       <note>
         <pitch>
           <step>A</step>
@@ -3077,11 +2725,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-25"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <pitch>
@@ -3132,11 +2775,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-25"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <pitch>
@@ -3176,9 +2814,7 @@ Edited by Mikhail Zyuzin</creator>
         <staff>2</staff>
         <beam number="1">end</beam>
       </note>
-
     </measure>
-
     <measure number="20">
       <note>
         <pitch>
@@ -3191,7 +2827,7 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <slur type="stop" number="1" default-x="5" default-y="6" bezier-x="-43" bezier-y="17"></slur>
+          <slur type="stop" number="1"/>
         </notations>
       </note>
       <note>
@@ -3205,14 +2841,12 @@ Edited by Mikhail Zyuzin</creator>
         <stem>up</stem>
         <staff>1</staff>
         <notations>
-          <slur type="start" number="1" placement="above" default-x="17" default-y="-4" bezier-x="43" bezier-y="22"></slur>
+          <slur type="start" number="1"/>
         </notations>
       </note>
-
       <backup>
         <duration>4</duration>
       </backup>
-
       <note>
         <pitch>
           <step>E</step>
@@ -3224,13 +2858,7 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-5"></staccato>
-          </articulations>
-        </notations>
       </note>
-
       <note>
         <pitch>
           <step>B</step>
@@ -3242,11 +2870,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="42"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -3276,7 +2899,6 @@ Edited by Mikhail Zyuzin</creator>
         <staff>2</staff>
         <beam number="1">end</beam>
       </note>
-
       <note>
         <pitch>
           <step>E</step>
@@ -3288,13 +2910,7 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-5"></staccato>
-          </articulations>
-        </notations>
       </note>
-
       <note>
         <pitch>
           <step>G</step>
@@ -3307,11 +2923,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="63"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -3339,9 +2950,7 @@ Edited by Mikhail Zyuzin</creator>
         <staff>2</staff>
         <beam number="1">end</beam>
       </note>
-
     </measure>
-
     <measure number="21">
       <note>
         <pitch>
@@ -3366,11 +2975,9 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>1</staff>
       </note>
-
       <backup>
         <duration>4</duration>
       </backup>
-
       <note>
         <pitch>
           <step>E</step>
@@ -3383,7 +2990,6 @@ Edited by Mikhail Zyuzin</creator>
         <staff>2</staff>
         <beam number="1">begin</beam>
       </note>
-
       <note>
         <pitch>
           <step>B</step>
@@ -3395,11 +3001,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="42"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -3429,7 +3030,6 @@ Edited by Mikhail Zyuzin</creator>
         <staff>2</staff>
         <beam number="1">end</beam>
       </note>
-
       <note>
         <pitch>
           <step>E</step>
@@ -3441,13 +3041,7 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-5"></staccato>
-          </articulations>
-        </notations>
       </note>
-
       <note>
         <pitch>
           <step>E</step>
@@ -3459,11 +3053,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="53"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -3492,9 +3081,7 @@ Edited by Mikhail Zyuzin</creator>
         <staff>2</staff>
         <beam number="1">end</beam>
       </note>
-
     </measure>
-
     <measure number="22">
       <note>
         <pitch>
@@ -3508,10 +3095,9 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <slur type="stop" number="1"></slur>
+          <slur type="stop" number="1"/>
         </notations>
       </note>
-
       <note>
         <pitch>
           <step>B</step>
@@ -3523,11 +3109,9 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>1</staff>
       </note>
-
       <backup>
         <duration>4</duration>
       </backup>
-
       <note>
         <pitch>
           <step>E</step>
@@ -3539,13 +3123,7 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-5"></staccato>
-          </articulations>
-        </notations>
       </note>
-
       <note>
         <pitch>
           <step>E</step>
@@ -3586,7 +3164,6 @@ Edited by Mikhail Zyuzin</creator>
         <staff>2</staff>
         <beam number="1">end</beam>
       </note>
-
       <note>
         <pitch>
           <step>E</step>
@@ -3599,7 +3176,6 @@ Edited by Mikhail Zyuzin</creator>
         <staff>2</staff>
         <beam number="1">begin</beam>
       </note>
-
       <note>
         <pitch>
           <step>B</step>
@@ -3611,11 +3187,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="42"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -3645,9 +3216,7 @@ Edited by Mikhail Zyuzin</creator>
         <beam number="1">end</beam>
       </note>
     </measure>
-
     <measure number="23">
-
       <note>
         <pitch>
           <step>D</step>
@@ -3722,11 +3291,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="52"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -3767,11 +3331,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-5"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <pitch>
@@ -3784,11 +3343,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="42"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -3818,7 +3372,6 @@ Edited by Mikhail Zyuzin</creator>
         <beam number="1">end</beam>
       </note>
     </measure>
-
     <measure number="24">
       <note>
         <pitch>
@@ -3845,11 +3398,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-25"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <pitch>
@@ -3862,11 +3410,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="31"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -3944,16 +3487,8 @@ Edited by Mikhail Zyuzin</creator>
         <staff>2</staff>
         <beam number="1">end</beam>
       </note>
-
     </measure>
-
     <measure number="25">
-
-      <barline location="left">
-        <bar-style>heavy-light</bar-style>
-        <repeat direction="forward"></repeat>
-      </barline>
-
       <note>
         <pitch>
           <step>E</step>
@@ -3965,7 +3500,7 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <slur type="start" number="1" placement="above" default-x="9" default-y="6" bezier-x="68" bezier-y="36"></slur>
+          <slur type="start" number="1"/>
         </notations>
       </note>
       <note>
@@ -3993,11 +3528,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-25"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <pitch>
@@ -4010,11 +3540,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="32"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -4053,11 +3578,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-35"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <pitch>
@@ -4097,8 +3617,11 @@ Edited by Mikhail Zyuzin</creator>
         <staff>2</staff>
         <beam number="1">end</beam>
       </note>
+      <barline location="left">
+        <bar-style>heavy-light</bar-style>
+        <repeat direction="forward"/>
+      </barline>
     </measure>
-
     <measure number="26">
       <note>
         <pitch>
@@ -4149,11 +3672,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-15"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <pitch>
@@ -4204,11 +3722,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-25"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <pitch>
@@ -4221,11 +3734,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="42"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -4269,7 +3777,6 @@ Edited by Mikhail Zyuzin</creator>
         <beam number="1">end</beam>
       </note>
     </measure>
-
     <measure number="27">
       <note>
         <pitch>
@@ -4320,11 +3827,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-5"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <pitch>
@@ -4337,11 +3839,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="46"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -4380,11 +3877,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-5"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <pitch>
@@ -4397,11 +3889,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="46"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -4430,7 +3917,6 @@ Edited by Mikhail Zyuzin</creator>
         <beam number="1">end</beam>
       </note>
     </measure>
-
     <measure number="28">
       <note>
         <pitch>
@@ -4454,7 +3940,7 @@ Edited by Mikhail Zyuzin</creator>
         <stem>up</stem>
         <staff>1</staff>
         <notations>
-          <slur type="stop" number="1" default-x="5" default-y="-5" bezier-x="-66" bezier-y="37"></slur>
+          <slur type="stop" number="1"/>
         </notations>
       </note>
       <backup>
@@ -4471,11 +3957,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-25"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <pitch>
@@ -4488,11 +3969,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="31"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -4531,13 +4007,7 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-25"></staccato>
-          </articulations>
-        </notations>
       </note>
-
       <note>
         <pitch>
           <step>A</step>
@@ -4549,11 +4019,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="31"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -4582,13 +4047,9 @@ Edited by Mikhail Zyuzin</creator>
         <beam number="1">end</beam>
       </note>
     </measure>
-
     <measure number="29">
       <note>
-        <rest>
-<!--           <display-step>B</display-step> -->
-          <display-octave>4</display-octave>
-        </rest>
+        <rest/>
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
@@ -4605,7 +4066,7 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <slur type="start" number="1" placement="above" default-x="10" default-y="11" bezier-x="31" bezier-y="15"></slur>
+          <slur type="start" number="1"/>
         </notations>
       </note>
       <note>
@@ -4633,11 +4094,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-5"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <pitch>
@@ -4650,11 +4106,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="46"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -4705,11 +4156,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="46"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -4738,7 +4184,6 @@ Edited by Mikhail Zyuzin</creator>
         <beam number="1">end</beam>
       </note>
     </measure>
-
     <measure number="30">
       <note>
         <pitch>
@@ -4752,7 +4197,7 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <slur type="stop" number="1" default-x="10" default-y="8" bezier-x="-31" bezier-y="15"></slur>
+          <slur type="stop" number="1"/>
         </notations>
       </note>
       <note>
@@ -4792,11 +4237,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="31"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -4835,11 +4275,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-25"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <pitch>
@@ -4852,11 +4287,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="32"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -4885,9 +4315,7 @@ Edited by Mikhail Zyuzin</creator>
         <beam number="1">end</beam>
       </note>
     </measure>
-
     <measure number="31">
-
       <note>
         <pitch>
           <step>B</step>
@@ -4964,11 +4392,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="63"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -5007,11 +4430,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-5"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <pitch>
@@ -5024,11 +4442,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="42"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -5058,7 +4471,6 @@ Edited by Mikhail Zyuzin</creator>
         <beam number="1">end</beam>
       </note>
     </measure>
-
     <measure number="32">
       <note>
         <pitch>
@@ -5085,11 +4497,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-25"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <pitch>
@@ -5102,11 +4509,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="32"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -5145,11 +4547,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-25"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <pitch>
@@ -5162,11 +4559,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="32"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -5194,14 +4586,11 @@ Edited by Mikhail Zyuzin</creator>
         <staff>2</staff>
         <beam number="1">end</beam>
       </note>
-
       <barline location="right">
         <bar-style>light-heavy</bar-style>
-        <repeat direction="backward"></repeat>
+        <repeat direction="backward"/>
       </barline>
-
     </measure>
-
     <measure number="33">
       <note>
         <pitch>
@@ -5215,7 +4604,7 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <slur type="start" number="1" placement="above" default-x="9" default-y="-4" bezier-x="32" bezier-y="20"></slur>
+          <slur type="start" number="1"/>
         </notations>
       </note>
       <note>
@@ -5243,11 +4632,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-15"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <pitch>
@@ -5260,11 +4644,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="42"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -5317,11 +4696,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="42"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -5351,7 +4725,6 @@ Edited by Mikhail Zyuzin</creator>
         <beam number="1">end</beam>
       </note>
     </measure>
-    <!--=======================================================-->
     <measure number="34">
       <note>
         <pitch>
@@ -5367,7 +4740,7 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <slur type="stop" number="1" default-x="8" default-y="9" bezier-x="-35" bezier-y="14"></slur>
+          <slur type="stop" number="1"/>
         </notations>
       </note>
       <note>
@@ -5381,7 +4754,7 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <slur type="start" number="1" placement="above" default-x="8" default-y="9" bezier-x="66" bezier-y="26"></slur>
+          <slur type="start" number="1"/>
         </notations>
       </note>
       <backup>
@@ -5398,11 +4771,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-15"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <pitch>
@@ -5415,11 +4783,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="42"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -5460,11 +4823,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-15"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <pitch>
@@ -5477,11 +4835,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="42"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -5511,7 +4864,6 @@ Edited by Mikhail Zyuzin</creator>
         <beam number="1">end</beam>
       </note>
     </measure>
-    <!--=======================================================-->
     <measure number="35">
       <note>
         <pitch>
@@ -5578,11 +4930,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-15"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <pitch>
@@ -5595,11 +4942,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="42"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -5640,11 +4982,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-15"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <pitch>
@@ -5657,11 +4994,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="42"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -5691,7 +5023,6 @@ Edited by Mikhail Zyuzin</creator>
         <beam number="1">end</beam>
       </note>
     </measure>
-    <!--=======================================================-->
     <measure number="36">
       <note>
         <pitch>
@@ -5741,11 +5072,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="37"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -5797,11 +5123,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-25"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <pitch>
@@ -5814,11 +5135,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="37"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -5860,7 +5176,6 @@ Edited by Mikhail Zyuzin</creator>
         <beam number="1">end</beam>
       </note>
     </measure>
-    <!--=======================================================-->
     <measure number="37">
       <note>
         <pitch>
@@ -5901,11 +5216,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-25"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <pitch>
@@ -5918,11 +5228,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="37"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -5974,11 +5279,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-25"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <pitch>
@@ -5991,11 +5291,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="37"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -6037,7 +5332,6 @@ Edited by Mikhail Zyuzin</creator>
         <beam number="1">end</beam>
       </note>
     </measure>
-    <!--=======================================================-->
     <measure number="38">
       <note>
         <pitch>
@@ -6051,7 +5345,7 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <slur type="stop" number="1" default-x="0" default-y="10" bezier-x="-67" bezier-y="23"></slur>
+          <slur type="stop" number="1"/>
         </notations>
       </note>
       <note>
@@ -6065,8 +5359,8 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <slur type="start" number="1" placement="above" default-x="8" default-y="6" bezier-x="2" bezier-y="5"></slur>
-          <slur type="continue" number="1" default-x="20" default-y="7" bezier-x="-3" bezier-y="4"></slur>
+          <slur type="start" number="1"/>
+          <slur type="continue" number="1"/>
         </notations>
       </note>
       <backup>
@@ -6083,11 +5377,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-25"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <pitch>
@@ -6100,11 +5389,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="37"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -6156,11 +5440,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-25"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <pitch>
@@ -6173,11 +5452,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="37"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -6219,9 +5493,7 @@ Edited by Mikhail Zyuzin</creator>
         <beam number="1">end</beam>
       </note>
     </measure>
-
     <measure number="39">
-
       <note>
         <pitch>
           <step>F</step>
@@ -6272,11 +5544,9 @@ Edited by Mikhail Zyuzin</creator>
         <staff>1</staff>
         <beam number="1">end</beam>
       </note>
-
       <backup>
         <duration>4</duration>
       </backup>
-
       <note>
         <pitch>
           <step>G</step>
@@ -6288,13 +5558,7 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-25"></staccato>
-          </articulations>
-        </notations>
       </note>
-
       <note>
         <pitch>
           <step>G</step>
@@ -6306,11 +5570,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="37"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -6351,7 +5610,6 @@ Edited by Mikhail Zyuzin</creator>
         <staff>2</staff>
         <beam number="1">end</beam>
       </note>
-
       <note>
         <pitch>
           <step>G</step>
@@ -6363,13 +5621,7 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-25"></staccato>
-          </articulations>
-        </notations>
       </note>
-
       <note>
         <pitch>
           <step>G</step>
@@ -6381,11 +5633,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="37"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -6426,9 +5673,7 @@ Edited by Mikhail Zyuzin</creator>
         <staff>2</staff>
         <beam number="1">end</beam>
       </note>
-
     </measure>
-    <!--=======================================================-->
     <measure number="40">
       <note>
         <pitch>
@@ -6441,15 +5686,13 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <slur type="continue" number="1" placement="above" default-x="-142" default-y="6" bezier-x2="37" bezier-y2="26"></slur>
-          <slur type="stop" number="1" default-x="5" default-y="-5" bezier-x="-33" bezier-y="30"></slur>
+          <slur type="continue" number="1"/>
+          <slur type="stop" number="1"/>
         </notations>
       </note>
-
       <backup>
         <duration>4</duration>
       </backup>
-
       <note>
         <pitch>
           <step>C</step>
@@ -6461,13 +5704,7 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-15"></staccato>
-          </articulations>
-        </notations>
       </note>
-
       <note>
         <pitch>
           <step>C</step>
@@ -6479,11 +5716,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="43"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -6512,7 +5744,6 @@ Edited by Mikhail Zyuzin</creator>
         <staff>2</staff>
         <beam number="1">end</beam>
       </note>
-
       <note>
         <pitch>
           <step>C</step>
@@ -6524,13 +5755,7 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-15"></staccato>
-          </articulations>
-        </notations>
       </note>
-
       <note>
         <pitch>
           <step>C</step>
@@ -6542,11 +5767,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="43"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -6575,16 +5795,8 @@ Edited by Mikhail Zyuzin</creator>
         <staff>2</staff>
         <beam number="1">end</beam>
       </note>
-
     </measure>
-    <!--=======================================================-->
     <measure number="41">
-
-      <barline location="left">
-        <bar-style>heavy-light</bar-style>
-        <repeat direction="forward"></repeat>
-      </barline>
-
       <note>
         <pitch>
           <step>G</step>
@@ -6596,7 +5808,7 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <slur type="start" number="1" placement="above" default-x="9" default-y="16" bezier-x="65" bezier-y="47"></slur>
+          <slur type="start" number="1"/>
         </notations>
       </note>
       <note>
@@ -6610,11 +5822,9 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>1</staff>
       </note>
-
       <backup>
         <duration>4</duration>
       </backup>
-
       <note>
         <pitch>
           <step>C</step>
@@ -6638,11 +5848,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="43"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -6672,7 +5877,6 @@ Edited by Mikhail Zyuzin</creator>
         <staff>2</staff>
         <beam number="1">end</beam>
       </note>
-
       <note>
         <pitch>
           <step>C</step>
@@ -6696,11 +5900,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="33"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -6728,9 +5927,11 @@ Edited by Mikhail Zyuzin</creator>
         <staff>2</staff>
         <beam number="1">end</beam>
       </note>
-
+      <barline location="left">
+        <bar-style>heavy-light</bar-style>
+        <repeat direction="forward"/>
+      </barline>
     </measure>
-    <!--=======================================================-->
     <measure number="42">
       <note>
         <pitch>
@@ -6770,11 +5971,9 @@ Edited by Mikhail Zyuzin</creator>
         <staff>1</staff>
         <beam number="1">end</beam>
       </note>
-
       <backup>
         <duration>4</duration>
       </backup>
-
       <note>
         <pitch>
           <step>C</step>
@@ -6798,11 +5997,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="43"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -6831,7 +6025,6 @@ Edited by Mikhail Zyuzin</creator>
         <staff>2</staff>
         <beam number="1">end</beam>
       </note>
-
       <note>
         <pitch>
           <step>C</step>
@@ -6855,11 +6048,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="33"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -6887,10 +6075,7 @@ Edited by Mikhail Zyuzin</creator>
         <staff>2</staff>
         <beam number="1">end</beam>
       </note>
-
     </measure>
-    <!--=======================================================-->
-
     <measure number="43">
       <note>
         <pitch>
@@ -6929,11 +6114,9 @@ Edited by Mikhail Zyuzin</creator>
         <staff>1</staff>
         <beam number="1">end</beam>
       </note>
-
       <backup>
         <duration>4</duration>
       </backup>
-
       <note>
         <pitch>
           <step>F</step>
@@ -6945,11 +6128,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-35"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <pitch>
@@ -6962,11 +6140,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="22"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -6996,7 +6169,6 @@ Edited by Mikhail Zyuzin</creator>
         <staff>2</staff>
         <beam number="1">end</beam>
       </note>
-
       <note>
         <pitch>
           <step>F</step>
@@ -7008,11 +6180,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-35"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <pitch>
@@ -7025,11 +6192,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="22"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -7058,10 +6220,7 @@ Edited by Mikhail Zyuzin</creator>
         <staff>2</staff>
         <beam number="1">end</beam>
       </note>
-
     </measure>
-
-    <!--=======================================================-->
     <measure number="44">
       <note>
         <pitch>
@@ -7085,14 +6244,12 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <slur type="stop" number="1" default-x="10" default-y="-5" bezier-x="-61" bezier-y="48"></slur>
+          <slur type="stop" number="1"/>
         </notations>
       </note>
-
       <backup>
         <duration>4</duration>
       </backup>
-
       <note>
         <pitch>
           <step>C</step>
@@ -7104,11 +6261,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-15"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <pitch>
@@ -7121,11 +6273,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="43"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -7155,7 +6302,6 @@ Edited by Mikhail Zyuzin</creator>
         <staff>2</staff>
         <beam number="1">end</beam>
       </note>
-
       <note>
         <pitch>
           <step>C</step>
@@ -7179,11 +6325,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="43"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -7212,16 +6353,10 @@ Edited by Mikhail Zyuzin</creator>
         <staff>2</staff>
         <beam number="1">end</beam>
       </note>
-
     </measure>
-
-    <!--=======================================================-->
     <measure number="45">
       <note>
-        <rest>
-<!--           <display-step>B</display-step> -->
-          <display-octave>4</display-octave>
-        </rest>
+        <rest/>
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
@@ -7240,7 +6375,7 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <slur type="start" number="1" placement="above" default-x="8" default-y="21" bezier-x="30" bezier-y="13"></slur>
+          <slur type="start" number="1"/>
         </notations>
       </note>
       <note>
@@ -7254,11 +6389,9 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>1</staff>
       </note>
-
       <backup>
         <duration>4</duration>
       </backup>
-
       <note>
         <pitch>
           <step>F</step>
@@ -7270,11 +6403,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-35"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <pitch>
@@ -7287,11 +6415,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="22"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -7321,7 +6444,6 @@ Edited by Mikhail Zyuzin</creator>
         <staff>2</staff>
         <beam number="1">end</beam>
       </note>
-
       <note>
         <pitch>
           <step>F</step>
@@ -7333,11 +6455,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-35"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <pitch>
@@ -7350,11 +6467,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="22"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -7383,9 +6495,7 @@ Edited by Mikhail Zyuzin</creator>
         <staff>2</staff>
         <beam number="1">end</beam>
       </note>
-
     </measure>
-    <!--=======================================================-->
     <measure number="46">
       <note>
         <pitch>
@@ -7399,7 +6509,7 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <slur type="stop" number="1" default-x="9" default-y="16" bezier-x="-28" bezier-y="18"></slur>
+          <slur type="stop" number="1"/>
         </notations>
       </note>
       <note>
@@ -7415,11 +6525,9 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>1</staff>
       </note>
-
       <backup>
         <duration>4</duration>
       </backup>
-
       <note>
         <pitch>
           <step>C</step>
@@ -7431,11 +6539,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-15"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <pitch>
@@ -7448,11 +6551,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="43"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -7482,7 +6580,6 @@ Edited by Mikhail Zyuzin</creator>
         <staff>2</staff>
         <beam number="1">end</beam>
       </note>
-
       <note>
         <pitch>
           <step>C</step>
@@ -7506,11 +6603,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="43"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -7539,11 +6631,8 @@ Edited by Mikhail Zyuzin</creator>
         <staff>2</staff>
         <beam number="1">end</beam>
       </note>
-
     </measure>
-
     <measure number="47">
-
       <note>
         <pitch>
           <step>D</step>
@@ -7608,11 +6697,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-25"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <pitch>
@@ -7625,11 +6709,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="37"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -7693,11 +6772,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="37"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -7739,7 +6813,6 @@ Edited by Mikhail Zyuzin</creator>
         <beam number="1">end</beam>
       </note>
     </measure>
-    <!--=======================================================-->
     <measure number="48">
       <note>
         <pitch>
@@ -7778,11 +6851,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="42"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -7835,11 +6903,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="42"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -7868,14 +6931,11 @@ Edited by Mikhail Zyuzin</creator>
         <staff>2</staff>
         <beam number="1">end</beam>
       </note>
-
       <barline location="right">
         <bar-style>light-heavy</bar-style>
-        <repeat direction="backward"></repeat>
+        <repeat direction="backward"/>
       </barline>
-
     </measure>
-    <!--=======================================================-->
     <measure number="49">
       <attributes>
         <key>
@@ -7894,10 +6954,9 @@ Edited by Mikhail Zyuzin</creator>
         <stem>up</stem>
         <staff>1</staff>
         <notations>
-          <slur type="start" number="1" placement="above" default-x="16" default-y="6" bezier-x="29" bezier-y="34"></slur>
+          <slur type="start" number="1"/>
         </notations>
       </note>
-
       <note>
         <pitch>
           <step>A</step>
@@ -7909,11 +6968,9 @@ Edited by Mikhail Zyuzin</creator>
         <stem>up</stem>
         <staff>1</staff>
       </note>
-
       <backup>
         <duration>4</duration>
       </backup>
-
       <note>
         <pitch>
           <step>G</step>
@@ -7925,13 +6982,7 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-25"></staccato>
-          </articulations>
-        </notations>
       </note>
-
       <note>
         <pitch>
           <step>G</step>
@@ -7943,11 +6994,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="27"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -7987,11 +7033,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-25"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <pitch>
@@ -8004,11 +7045,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="27"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -8038,7 +7074,6 @@ Edited by Mikhail Zyuzin</creator>
         <beam number="1">end</beam>
       </note>
     </measure>
-    <!--=======================================================-->
     <measure number="50">
       <note>
         <pitch>
@@ -8053,7 +7088,7 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <slur type="stop" number="1" default-x="7" default-y="-4" bezier-x="-24" bezier-y="37"></slur>
+          <slur type="stop" number="1"/>
         </notations>
       </note>
       <note>
@@ -8067,7 +7102,7 @@ Edited by Mikhail Zyuzin</creator>
         <stem>up</stem>
         <staff>1</staff>
         <notations>
-          <slur type="start" number="1" placement="above" default-x="17" default-y="9" bezier-x="66" bezier-y="37"></slur>
+          <slur type="start" number="1"/>
         </notations>
       </note>
       <backup>
@@ -8084,11 +7119,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-25"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <pitch>
@@ -8140,11 +7170,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-25"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <pitch>
@@ -8157,11 +7182,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="27"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -8191,7 +7211,6 @@ Edited by Mikhail Zyuzin</creator>
         <beam number="1">end</beam>
       </note>
     </measure>
-    <!--=======================================================-->
     <measure number="51">
       <note>
         <pitch>
@@ -8257,11 +7276,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-25"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <pitch>
@@ -8274,11 +7288,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="27"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -8318,11 +7327,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-25"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <pitch>
@@ -8335,11 +7339,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="27"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -8369,7 +7368,6 @@ Edited by Mikhail Zyuzin</creator>
         <beam number="1">end</beam>
       </note>
     </measure>
-    <!--=======================================================-->
     <measure number="52">
       <note>
         <pitch>
@@ -8407,11 +7405,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-5"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <pitch>
@@ -8424,11 +7417,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="37"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -8469,11 +7457,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-5"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <pitch>
@@ -8487,11 +7470,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="57"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -8520,7 +7498,6 @@ Edited by Mikhail Zyuzin</creator>
         <beam number="1">end</beam>
       </note>
     </measure>
-    <!--=======================================================-->
     <measure number="53">
       <note>
         <pitch>
@@ -8572,11 +7549,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="37"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -8617,11 +7589,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-5"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <pitch>
@@ -8634,11 +7601,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="47"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -8668,7 +7630,6 @@ Edited by Mikhail Zyuzin</creator>
         <beam number="1">end</beam>
       </note>
     </measure>
-    <!--=======================================================-->
     <measure number="54">
       <note>
         <pitch>
@@ -8682,7 +7643,7 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <slur type="stop" number="1" default-x="3" default-y="6" bezier-x="-68" bezier-y="29"></slur>
+          <slur type="stop" number="1"/>
         </notations>
       </note>
       <note>
@@ -8696,8 +7657,8 @@ Edited by Mikhail Zyuzin</creator>
         <stem>up</stem>
         <staff>1</staff>
         <notations>
-          <slur type="start" number="1" placement="above" default-x="17" default-y="14" bezier-x="2" bezier-y="5"></slur>
-          <slur type="continue" number="1" default-x="28" default-y="14" bezier-x="-2" bezier-y="5"></slur>
+          <slur type="start" number="1"/>
+          <slur type="continue" number="1"/>
         </notations>
       </note>
       <backup>
@@ -8714,11 +7675,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-5"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <pitch>
@@ -8812,9 +7768,7 @@ Edited by Mikhail Zyuzin</creator>
         <beam number="1">end</beam>
       </note>
     </measure>
-
     <measure number="55">
-
       <note>
         <pitch>
           <step>C</step>
@@ -8864,11 +7818,9 @@ Edited by Mikhail Zyuzin</creator>
         <staff>1</staff>
         <beam number="1">end</beam>
       </note>
-
       <backup>
         <duration>4</duration>
       </backup>
-
       <note>
         <pitch>
           <step>D</step>
@@ -8892,11 +7844,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="47"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -8926,7 +7873,6 @@ Edited by Mikhail Zyuzin</creator>
         <staff>2</staff>
         <beam number="1">end</beam>
       </note>
-
       <note>
         <pitch>
           <step>D</step>
@@ -8938,11 +7884,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-5"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <pitch>
@@ -8955,11 +7896,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="37"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -8988,11 +7924,8 @@ Edited by Mikhail Zyuzin</creator>
         <staff>2</staff>
         <beam number="1">end</beam>
       </note>
-
     </measure>
-    <!--=======================================================-->
     <measure number="56">
-
       <note>
         <pitch>
           <step>G</step>
@@ -9004,15 +7937,13 @@ Edited by Mikhail Zyuzin</creator>
         <stem>up</stem>
         <staff>1</staff>
         <notations>
-          <slur type="continue" number="1" placement="above" default-x="-218" default-y="15" bezier-x2="52" bezier-y2="21"></slur>
-          <slur type="stop" number="1" default-x="15" default-y="15" bezier-x="-52" bezier-y="22"></slur>
+          <slur type="continue" number="1"/>
+          <slur type="stop" number="1"/>
         </notations>
       </note>
-
       <backup>
         <duration>4</duration>
       </backup>
-
       <note>
         <pitch>
           <step>G</step>
@@ -9024,11 +7955,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-25"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <pitch>
@@ -9069,7 +7995,6 @@ Edited by Mikhail Zyuzin</creator>
         <staff>2</staff>
         <beam number="1">end</beam>
       </note>
-
       <note>
         <pitch>
           <step>G</step>
@@ -9081,11 +8006,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-25"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <pitch>
@@ -9126,159 +8046,139 @@ Edited by Mikhail Zyuzin</creator>
         <staff>2</staff>
         <beam number="1">end</beam>
       </note>
-
     </measure>
-    <!--=======================================================-->
     <measure number="57">
-
+      <note>
+        <pitch>
+          <step>D</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        <staff>1</staff>
+      </note>
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>2</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>down</stem>
+        <staff>1</staff>
+      </note>
+      <backup>
+        <duration>4</duration>
+      </backup>
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>2</octave>
+        </pitch>
+        <duration>1</duration>
+        <voice>5</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">begin</beam>
+      </note>
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>1</duration>
+        <voice>5</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">end</beam>
+      </note>
+      <note>
+        <chord/>
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>1</duration>
+        <voice>5</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">end</beam>
+      </note>
+      <note>
+        <chord/>
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <voice>5</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">end</beam>
+      </note>
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>2</octave>
+        </pitch>
+        <duration>1</duration>
+        <voice>5</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">begin</beam>
+      </note>
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>1</duration>
+        <voice>5</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">end</beam>
+      </note>
+      <note>
+        <chord/>
+        <pitch>
+          <step>B</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>1</duration>
+        <voice>5</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">end</beam>
+      </note>
+      <note>
+        <chord/>
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <voice>5</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">end</beam>
+      </note>
       <barline location="left">
         <bar-style>heavy-light</bar-style>
-        <repeat direction="forward"></repeat>
+        <repeat direction="forward"/>
       </barline>
-
-      <note>
-        <pitch>
-          <step>D</step>
-          <octave>5</octave>
-        </pitch>
-        <duration>2</duration>
-        <voice>1</voice>
-        <type>quarter</type>
-        <stem>down</stem>
-        <staff>1</staff>
-      </note>
-      <note>
-        <pitch>
-          <step>G</step>
-          <octave>5</octave>
-        </pitch>
-        <duration>2</duration>
-        <voice>1</voice>
-        <type>quarter</type>
-        <stem>down</stem>
-        <staff>1</staff>
-      </note>
-
-      <backup>
-        <duration>4</duration>
-      </backup>
-
-      <note>
-        <pitch>
-          <step>G</step>
-          <octave>2</octave>
-        </pitch>
-        <duration>1</duration>
-        <voice>5</voice>
-        <type>eighth</type>
-        <stem>down</stem>
-        <staff>2</staff>
-        <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-25"></staccato>
-          </articulations>
-        </notations>
-      </note>
-      <note>
-        <pitch>
-          <step>G</step>
-          <octave>3</octave>
-        </pitch>
-        <duration>1</duration>
-        <voice>5</voice>
-        <type>eighth</type>
-        <stem>down</stem>
-        <staff>2</staff>
-        <beam number="1">end</beam>
-      </note>
-      <note>
-        <chord/>
-        <pitch>
-          <step>B</step>
-          <alter>-1</alter>
-          <octave>3</octave>
-        </pitch>
-        <duration>1</duration>
-        <voice>5</voice>
-        <type>eighth</type>
-        <stem>down</stem>
-        <staff>2</staff>
-        <beam number="1">end</beam>
-      </note>
-      <note>
-        <chord/>
-        <pitch>
-          <step>D</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>1</duration>
-        <voice>5</voice>
-        <type>eighth</type>
-        <stem>down</stem>
-        <staff>2</staff>
-        <beam number="1">end</beam>
-      </note>
-
-      <note>
-        <pitch>
-          <step>G</step>
-          <octave>2</octave>
-        </pitch>
-        <duration>1</duration>
-        <voice>5</voice>
-        <type>eighth</type>
-        <stem>down</stem>
-        <staff>2</staff>
-        <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-25"></staccato>
-          </articulations>
-        </notations>
-      </note>
-      <note>
-        <pitch>
-          <step>G</step>
-          <octave>3</octave>
-        </pitch>
-        <duration>1</duration>
-        <voice>5</voice>
-        <type>eighth</type>
-        <stem>down</stem>
-        <staff>2</staff>
-        <beam number="1">end</beam>
-      </note>
-      <note>
-        <chord/>
-        <pitch>
-          <step>B</step>
-          <octave>3</octave>
-        </pitch>
-        <duration>1</duration>
-        <voice>5</voice>
-        <type>eighth</type>
-        <stem>down</stem>
-        <staff>2</staff>
-        <beam number="1">end</beam>
-      </note>
-      <note>
-        <chord/>
-        <pitch>
-          <step>D</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>1</duration>
-        <voice>5</voice>
-        <type>eighth</type>
-        <stem>down</stem>
-        <staff>2</staff>
-        <beam number="1">end</beam>
-      </note>
-
     </measure>
-
-    <!--=======================================================-->
     <measure number="58">
       <note>
         <pitch>
@@ -9315,11 +8215,9 @@ Edited by Mikhail Zyuzin</creator>
         <staff>1</staff>
         <beam number="1">end</beam>
       </note>
-
       <backup>
         <duration>4</duration>
       </backup>
-
       <note>
         <pitch>
           <step>B</step>
@@ -9331,11 +8229,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-15"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <pitch>
@@ -9348,11 +8241,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="37"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -9380,7 +8268,6 @@ Edited by Mikhail Zyuzin</creator>
         <staff>2</staff>
         <beam number="1">end</beam>
       </note>
-
       <note>
         <pitch>
           <step>G</step>
@@ -9392,11 +8279,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-25"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <pitch>
@@ -9409,11 +8291,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="37"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -9455,10 +8332,7 @@ Edited by Mikhail Zyuzin</creator>
         <staff>2</staff>
         <beam number="1">end</beam>
       </note>
-
     </measure>
-
-    <!--=======================================================-->
     <measure number="59">
       <note>
         <pitch>
@@ -9511,11 +8385,9 @@ Edited by Mikhail Zyuzin</creator>
         <staff>1</staff>
         <beam number="1">end</beam>
       </note>
-
       <backup>
         <duration>4</duration>
       </backup>
-
       <note>
         <pitch>
           <step>C</step>
@@ -9527,11 +8399,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-15"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <pitch>
@@ -9544,11 +8411,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="42"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -9578,7 +8440,6 @@ Edited by Mikhail Zyuzin</creator>
         <staff>2</staff>
         <beam number="1">end</beam>
       </note>
-
       <note>
         <pitch>
           <step>C</step>
@@ -9590,11 +8451,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-15"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <pitch>
@@ -9607,11 +8463,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="42"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -9640,11 +8491,8 @@ Edited by Mikhail Zyuzin</creator>
         <staff>2</staff>
         <beam number="1">end</beam>
       </note>
-
     </measure>
-
     <measure number="60">
-
       <note>
         <pitch>
           <step>D</step>
@@ -9681,11 +8529,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-25"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <pitch>
@@ -9698,11 +8541,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="26"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -9754,11 +8592,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="26"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -9788,13 +8621,9 @@ Edited by Mikhail Zyuzin</creator>
         <beam number="1">end</beam>
       </note>
     </measure>
-    <!--=======================================================-->
     <measure number="61">
       <note>
-        <rest>
-<!--           <display-step>B</display-step> -->
-          <display-octave>4</display-octave>
-        </rest>
+        <rest/>
         <duration>1</duration>
         <voice>1</voice>
         <type>eighth</type>
@@ -9813,7 +8642,7 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>1</staff>
         <notations>
-          <slur type="start" number="1" placement="above" default-x="8" default-y="6" bezier-x="66" bezier-y="27"></slur>
+          <slur type="start" number="1"/>
         </notations>
       </note>
       <note>
@@ -9841,11 +8670,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-15"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <pitch>
@@ -9898,11 +8722,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-15"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <pitch>
@@ -9915,11 +8734,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="42"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -9949,7 +8763,6 @@ Edited by Mikhail Zyuzin</creator>
         <beam number="1">end</beam>
       </note>
     </measure>
-    <!--=======================================================-->
     <measure number="62">
       <note>
         <pitch>
@@ -10040,11 +8853,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-25"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <pitch>
@@ -10057,11 +8865,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="26"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -10091,7 +8894,6 @@ Edited by Mikhail Zyuzin</creator>
         <beam number="1">end</beam>
       </note>
     </measure>
-    <!--=======================================================-->
     <measure number="63">
       <note>
         <pitch>
@@ -10116,11 +8918,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>up</stem>
         <staff>1</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="below" default-y="-56"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <pitch>
@@ -10161,11 +8958,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-5"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <pitch>
@@ -10218,11 +9010,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-5"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <pitch>
@@ -10235,11 +9022,6 @@ Edited by Mikhail Zyuzin</creator>
         <stem>down</stem>
         <staff>2</staff>
         <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="36"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -10269,14 +9051,137 @@ Edited by Mikhail Zyuzin</creator>
         <beam number="1">end</beam>
       </note>
     </measure>
-    <!--=======================================================-->
     <measure number="64">
-
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>4</duration>
+        <voice>1</voice>
+        <type>half</type>
+        <stem>up</stem>
+        <staff>1</staff>
+        <notations>
+          <slur type="stop" number="1"/>
+        </notations>
+      </note>
+      <backup>
+        <duration>4</duration>
+      </backup>
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>2</octave>
+        </pitch>
+        <duration>1</duration>
+        <voice>5</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">begin</beam>
+      </note>
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>1</duration>
+        <voice>5</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">end</beam>
+      </note>
+      <note>
+        <chord/>
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>1</duration>
+        <voice>5</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">end</beam>
+      </note>
+      <note>
+        <chord/>
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <voice>5</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">end</beam>
+      </note>
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>2</octave>
+        </pitch>
+        <duration>1</duration>
+        <voice>5</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">begin</beam>
+      </note>
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>1</duration>
+        <voice>5</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">end</beam>
+      </note>
+      <note>
+        <chord/>
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>3</octave>
+        </pitch>
+        <duration>1</duration>
+        <voice>5</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">end</beam>
+      </note>
+      <note>
+        <chord/>
+        <pitch>
+          <step>D</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <voice>5</voice>
+        <type>eighth</type>
+        <stem>down</stem>
+        <staff>2</staff>
+        <beam number="1">end</beam>
+      </note>
       <barline location="left">
         <bar-style>regular</bar-style>
-        <ending number="1" type="start" end-length="25" default-y="42"></ending>
+        <ending number="1" type="start"/>
       </barline>
-
+      <barline location="right">
+        <bar-style>light-heavy</bar-style>
+        <ending number="1" type="stop"/>
+        <repeat direction="backward"/>
+      </barline>
+    </measure>
+    <measure number="65">
       <note>
         <pitch>
           <step>G</step>
@@ -10287,9 +9192,6 @@ Edited by Mikhail Zyuzin</creator>
         <type>half</type>
         <stem>up</stem>
         <staff>1</staff>
-        <notations>
-          <slur type="stop" number="1" default-x="-2" default-y="6" bezier-x="-67" bezier-y="24"></slur>
-        </notations>
       </note>
       <backup>
         <duration>4</duration>
@@ -10297,36 +9199,13 @@ Edited by Mikhail Zyuzin</creator>
       <note>
         <pitch>
           <step>G</step>
-          <octave>2</octave>
-        </pitch>
-        <duration>1</duration>
-        <voice>5</voice>
-        <type>eighth</type>
-        <stem>down</stem>
-        <staff>2</staff>
-        <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-25"></staccato>
-          </articulations>
-        </notations>
-      </note>
-      <note>
-        <pitch>
-          <step>G</step>
           <octave>3</octave>
         </pitch>
-        <duration>1</duration>
+        <duration>4</duration>
         <voice>5</voice>
-        <type>eighth</type>
+        <type>half</type>
         <stem>down</stem>
         <staff>2</staff>
-        <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="26"></staccato>
-          </articulations>
-        </notations>
       </note>
       <note>
         <chord/>
@@ -10335,12 +9214,11 @@ Edited by Mikhail Zyuzin</creator>
           <alter>-1</alter>
           <octave>3</octave>
         </pitch>
-        <duration>1</duration>
+        <duration>4</duration>
         <voice>5</voice>
-        <type>eighth</type>
+        <type>half</type>
         <stem>down</stem>
         <staff>2</staff>
-        <beam number="1">end</beam>
       </note>
       <note>
         <chord/>
@@ -10348,152 +9226,20 @@ Edited by Mikhail Zyuzin</creator>
           <step>D</step>
           <octave>4</octave>
         </pitch>
-        <duration>1</duration>
+        <duration>4</duration>
         <voice>5</voice>
-        <type>eighth</type>
+        <type>half</type>
         <stem>down</stem>
         <staff>2</staff>
-        <beam number="1">end</beam>
       </note>
-      <note>
-        <pitch>
-          <step>G</step>
-          <octave>2</octave>
-        </pitch>
-        <duration>1</duration>
-        <voice>5</voice>
-        <type>eighth</type>
-        <stem>down</stem>
-        <staff>2</staff>
-        <beam number="1">begin</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="-25"></staccato>
-          </articulations>
-        </notations>
-      </note>
-      <note>
-        <pitch>
-          <step>G</step>
-          <octave>3</octave>
-        </pitch>
-        <duration>1</duration>
-        <voice>5</voice>
-        <type>eighth</type>
-        <stem>down</stem>
-        <staff>2</staff>
-        <beam number="1">end</beam>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="26"></staccato>
-          </articulations>
-        </notations>
-      </note>
-      <note>
-        <chord/>
-        <pitch>
-          <step>B</step>
-          <alter>-1</alter>
-          <octave>3</octave>
-        </pitch>
-        <duration>1</duration>
-        <voice>5</voice>
-        <type>eighth</type>
-        <stem>down</stem>
-        <staff>2</staff>
-        <beam number="1">end</beam>
-      </note>
-      <note>
-        <chord/>
-        <pitch>
-          <step>D</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>1</duration>
-        <voice>5</voice>
-        <type>eighth</type>
-        <stem>down</stem>
-        <staff>2</staff>
-        <beam number="1">end</beam>
-      </note>
-
-      <barline location="right">
-        <bar-style>light-heavy</bar-style>
-        <ending number="1" type="stop" end-length="25" default-y="42"></ending>
-        <repeat direction="backward"></repeat>
-      </barline>
-
-    </measure>
-    <!--=======================================================-->
-    <measure number="65">
-
       <barline location="left">
         <bar-style>light-heavy</bar-style>
-        <ending number="2" type="start" end-length="25" default-y="42"></ending>
+        <ending number="2" type="start"/>
       </barline>
-
-      <note>
-        <pitch>
-          <step>G</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>4</duration>
-        <voice>1</voice>
-        <type>half</type>
-        <stem>up</stem>
-        <staff>1</staff>
-        <notations>
-          <articulations>
-            <staccato placement="above" default-y="20"></staccato>
-          </articulations>
-        </notations>
-      </note>
-      <backup>
-        <duration>4</duration>
-      </backup>
-      <note>
-        <pitch>
-          <step>G</step>
-          <octave>3</octave>
-        </pitch>
-        <duration>4</duration>
-        <voice>5</voice>
-        <type>half</type>
-        <stem>down</stem>
-        <staff>2</staff>
-      </note>
-      <note>
-        <chord/>
-        <pitch>
-          <step>B</step>
-          <alter>-1</alter>
-          <octave>3</octave>
-        </pitch>
-        <duration>4</duration>
-        <voice>5</voice>
-        <type>half</type>
-        <stem>down</stem>
-        <staff>2</staff>
-      </note>
-      <note>
-        <chord/>
-        <pitch>
-          <step>D</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>4</duration>
-        <voice>5</voice>
-        <type>half</type>
-        <stem>down</stem>
-        <staff>2</staff>
-      </note>
-
       <barline location="right">
         <bar-style>light-heavy</bar-style>
-        <ending number="2" type="stop" end-length="25" default-y="42"></ending>
+        <ending number="2" type="stop"/>
       </barline>
-
     </measure>
-
   </part>
 </score-partwise>
